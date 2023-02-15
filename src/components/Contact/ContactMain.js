@@ -11,7 +11,7 @@ class ContactMain extends Component {
         return (
             <main>
 	            {/* breadcrumb-start */}
-				<Breadcrumb pageTitle="Contact" />
+				<Breadcrumb bgImage="college-students-studying.jpeg" pageTitle="Contact" />
 				{/* breadcrumb-end */}
 
                 {/* Getintouch-start */}

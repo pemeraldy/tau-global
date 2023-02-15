@@ -17,7 +17,7 @@ class Brand extends Component {
                     <div className="row">
                         <div className="col-xxl-12">
                             <div className="brand__content text-center">
-                                <h3 className="brand__title">Trusted by 100 world's best companies</h3>
+                                {/* <h3 className="brand__title">Trusted by 10 world's best companies</h3> */}
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ class Brand extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-xxl-12">
                             <div className="brand__more text-center">
                                 <Link href="/about"><a className="link-btn">
@@ -99,7 +99,7 @@ class Brand extends Component {
                                 </a></Link>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         );

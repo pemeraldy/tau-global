@@ -17,13 +17,13 @@ class Category extends Component {
                             </div>
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-4">
-                            <div className="category__more mb-50 float-md-end fix">
+                            {/* <div className="category__more mb-50 float-md-end fix">
                                 <Link href="/"><a className="link-btn">
                                     View all Category
                                     <i className="fas fa-arrow-right"></i>
                                     <i className="fas fa-arrow-right"></i>
                                 </a></Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="row">
