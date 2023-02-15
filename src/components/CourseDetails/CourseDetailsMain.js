@@ -30,51 +30,51 @@ class CourseDetailsMain extends Component {
                                 <div className="course__wrapper">
                                     <div className="page__title-content mb-25">
                                         <div className="page__title-breadcrumb">                            
-                                            <nav aria-label="breadcrumb">
+                                            {/* <nav aria-label="breadcrumb">
                                                 <ol className="breadcrumb">
                                                     <li className="breadcrumb-item"><Link href="/"><a>Home</a></Link></li>
                                                     <li className="breadcrumb-item"><Link href="/course-grid"><a>Courses</a></Link></li>
                                                     <li className="breadcrumb-item active" aria-current="page">The business Intelligence analyst Course 2022</li>
                                                 </ol>
-                                            </nav>
+                                            </nav> */}
                                         </div>
-                                    <span className="page__title-pre">Development</span>
-                                    <h5 className="page__title-3">The business Intelligence analyst Course 2022</h5>
+                                    <span className="page__title-pre">Course</span>
+                                    <h5 className="page__title-3">A sample of what TAU course Details page looks like</h5>
                                     </div>
-                                    <div className="course__meta-2 d-sm-flex mb-30">
-                                    <div className="course__teacher-3 d-flex align-items-center mr-70 mb-30">
-                                        <div className="course__teacher-thumb-3 mr-15">
-                                            <img src="assets/img/course/teacher/teacher-1.jpg" alt="img not found"/>
+                                    {/* <div className="course__meta-2 d-sm-flex mb-30">
+                                        <div className="course__teacher-3 d-flex align-items-center mr-70 mb-30">
+                                            <div className="course__teacher-thumb-3 mr-15">
+                                                <img src="assets/img/course/teacher/teacher-1.jpg" alt="img not found"/>
+                                            </div>
+                                            <div className="course__teacher-info-3">
+                                                <h5>Teacher</h5>
+                                                <p><Link href="/instructor"><a>Elon Gated</a></Link></p>
+                                            </div>
                                         </div>
-                                        <div className="course__teacher-info-3">
-                                            <h5>Teacher</h5>
-                                            <p><Link href="/instructor"><a>Elon Gated</a></Link></p>
+                                        <div className="course__update mr-80 mb-30">
+                                            <h5>Last Update:</h5>
+                                            <p>July 24, 2022</p>
                                         </div>
-                                    </div>
-                                    <div className="course__update mr-80 mb-30">
-                                        <h5>Last Update:</h5>
-                                        <p>July 24, 2022</p>
-                                    </div>
-                                    <div className="course__rating-2 mb-30">
-                                        <h5>Review:</h5>
-                                        <div className="course__rating-inner d-flex align-items-center">
-                                            <ul>
-                                                <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                                <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                                <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                                <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                                <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                            </ul>
-                                            <p>4.5</p>
+                                        <div className="course__rating-2 mb-30">
+                                            <h5>Review:</h5>
+                                            <div className="course__rating-inner d-flex align-items-center">
+                                                <ul>
+                                                    <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                                    <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                                    <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                                    <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                                    <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                                </ul>
+                                                <p>4.5</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    </div>
+                                    </div> */}
                                     <div className="course__img w-img mb-30">
                                         <img src="assets/img/course/details/course-details-1.jpg" alt="img not found"/>
                                     </div>
                                     <Tabs>
                                         <div className="course__tab-2 mb-45">
-                                            <ul className="navs nav-tabss" id="courseTab" role="tablist">
+                                            <ul className="navs flex justify-content-center nav-tabss" id="courseTab" role="tablist">
                                                 <TabList>
                                                     <Tab>
                                                         <button className="nav-link" type="button" role="tab"><i className="fas fa-ribbon"></i> <span>Discription</span> </button>
@@ -82,12 +82,12 @@ class CourseDetailsMain extends Component {
                                                     <Tab>
                                                         <button className="nav-link" type="button"> <i className="fas fa-book"></i> <span>Curriculum</span> </button>
                                                     </Tab>
-                                                    <Tab>
+                                                    {/* <Tab>
                                                         <button className="nav-link" type="button"> <i className="fas fa-star"></i> <span>Reviews</span> </button>
-                                                    </Tab>
-                                                    <Tab>
+                                                    </Tab> */}
+                                                    {/* <Tab>
                                                         <button className="nav-link" type="button"> <i className="fas fa-user"></i> <span>Members</span> </button>
-                                                    </Tab>
+                                                    </Tab> */}
                                                 </TabList>
                                             </ul>
                                         </div>
@@ -96,60 +96,29 @@ class CourseDetailsMain extends Component {
                                                 <TabPanel>
                                                     <div className="course__description">
                                                         <h3>Course Overview</h3>
-                                                        <p>Only a quid me old mucker squiffy tomfoolery grub cheers ruddy cor blimey guvnor in my flat, up the duff Eaton car boot up the kyver pardon you A bit of how's your father David skive off sloshed, don't get shirty with me chip shop vagabond crikey bugger Queen's English chap. Matie boy nancy boy bite your arm off up the kyver old no biggie fantastic boot, David have it show off show off pick your nose and blow off lost the plot porkies bits and bobs only a quid bugger all mate, absolutely bladdered bamboozled it's your round don't get shirty with me down the pub well. Give us a bell bits and bobs Charles he lost his bottle super my lady cras starkers bite your arm off Queen's English, pardon me horse play Elizabeth a blinding shot chinwag knees up do one David, blag cup of tea Eaton so I said bleeding haggle James Bond cup of char. Gosh William ummm I'm telling crikey burke I don't want no agro A bit of how's your father bugger all mate off his nut that, what a plonker cuppa owt to do with me nancy boy show off show off pick your nose and blow off spiffing good time lavatory me old mucker, chimney pot what a load of rubbish boot squiffy lost the plot brolly wellies excuse my french.</p>
+                                                        <p>A detailed explantion of what the course is all about</p>
 
                                                         <div className="course__tag-2 mb-35 mt-35">
                                                         <i className="fas fa-tags"></i>
-                                                        <Link href="/course-details"><a>Big data,</a></Link>
-                                                        <Link href="/course-details"><a>Data analysis,</a></Link>
-                                                        <Link href="/course-details"><a>Data modeling</a></Link>
+                                                        <Link href="/course-details"><a>IELTS, </a></Link>
+                                                        <Link href="/course-details"><a>Healthcare professionals, </a></Link>
+                                                        <Link href="/course-details"><a>French</a></Link>
                                                         </div>
                                                         <div className="course__description-list mb-45">
                                                         <h4>What is the Target Audience?</h4>
                                                         <ul>
                                                             <li> <i className="fas fa-check"></i> Business's managers, leaders</li>
-                                                            <li> <i className="fas fa-check"></i> Downloadable lectures, code and design assets for all projects</li>
+                                                            <li> <i className="fas fa-check"></i> Nurses or Doctors that want to JAPA </li>
                                                             <li> <i className="fas fa-check"></i> Anyone who is finding a chance to get the promotion</li>
                                                         </ul>
                                                         </div>
-                                                        <div className="course__instructor mb-45">
-                                                        <h3>Other Instructors</h3>
-                                                        <div className="course__instructor-wrapper d-md-flex align-items-center">
-                                                            <div className="course__instructor-item d-flex align-items-center mr-70">
-                                                                <div className="course__instructor-thumb mr-20">
-                                                                    <img src="assets/img/course/teacher/teacher-3.jpg" alt="img not found"/>
-                                                                </div>
-                                                                <div className="course__instructor-content">
-                                                                    <h3>Eleanor Fant</h3>
-                                                                    <p>Instructor</p>
-                                                                </div>
-                                                            </div>
-                                                            <div className="course__instructor-item d-flex align-items-center mr-70">
-                                                                <div className="course__instructor-thumb mr-20">
-                                                                    <img src="assets/img/course/teacher/teacher-2.jpg" alt="img not found"/>
-                                                                </div>
-                                                                <div className="course__instructor-content">
-                                                                    <h3>Lauren Stamps</h3>
-                                                                    <p>Teacher</p>
-                                                                </div>
-                                                            </div>
-                                                            <div className="course__instructor-item d-flex align-items-center mr-70">
-                                                                <div className="course__instructor-thumb mr-20">
-                                                                    <img src="assets/img/course/teacher/teacher-1.jpg" alt="img not found"/>
-                                                                </div>
-                                                                <div className="course__instructor-content">
-                                                                    <h3>Jonquil Von</h3>
-                                                                    <p>Associate</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        </div>
+                                                        
                                                     </div>
                                                 </TabPanel>
                                                 <TabPanel>
                                                     <CourseAccordion />
                                                 </TabPanel>
-                                                <TabPanel>
+                                                {/* <TabPanel>
                                                     <div className="course__review">
                                                         <h3>Reviews</h3>
                                                         <p>Gosh william I'm telling crikey burke I don't want no agro A bit of how's your father bugger all mate off his nut that, what a plonker cuppa owt to do</p>
@@ -340,8 +309,8 @@ class CourseDetailsMain extends Component {
                                                         </div>
                                                         </div>
                                                     </div>
-                                                </TabPanel>
-                                                <TabPanel>
+                                                </TabPanel> */}
+                                                {/* <TabPanel>
                                                     <div className="course__member mb-45">
                                                         <div className="course__member-item">
                                                         <div className="row align-items-center">
@@ -437,33 +406,33 @@ class CourseDetailsMain extends Component {
                                                         </div>
                                                         </div>
                                                     </div>
-                                                </TabPanel>
-                                                <div className="course__share">
+                                                </TabPanel> */}
+                                                {/* <div className="course__share">
                                                     <h3>Share :</h3>
                                                     <ul>
                                                         <li><a href="#" className="fb"><i className="fab fa-facebook-f"></i></a></li>
                                                         <li><a href="#" className="tw"><i className="fab fa-twitter"></i></a></li>
                                                         <li><a href="#" className="pin"><i className="fab fa-pinterest-p"></i></a></li>
                                                     </ul>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </Tabs>
-                                    <div className="course__related">
-                                    <div className="row">
-                                        <div className="col-xxl-12">
-                                            <div className="section__title-wrapper mb-40">
-                                                <h2 className="section__title">Related <span className="yellow-bg yellow-bg-big">Course<img src="assets/img/shape/yellow-bg.png" alt="img not found"/></span></h2>
-                                                <p>You don't have to struggle alone, you've got our assistance and help.</p>
+                                    {/* <div className="course__related">
+                                        <div className="row">
+                                            <div className="col-xxl-12">
+                                                <div className="section__title-wrapper mb-40">
+                                                    <h2 className="section__title">Related <span className="yellow-bg yellow-bg-big">Course<img src="assets/img/shape/yellow-bg.png" alt="img not found"/></span></h2>
+                                                    <p>You don't have to struggle alone, you've got our assistance and help.</p>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="row">
-                                        <div className="col-xxl-12">
-                                            <CourseSliderWithNoSSR />
+                                        <div className="row">
+                                            <div className="col-xxl-12">
+                                                <CourseSliderWithNoSSR />
+                                            </div>
                                         </div>
-                                    </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-xxl-4 col-xl-4 col-lg-4">

@@ -44,7 +44,7 @@ class CourseSidebar extends Component {
                 center
             >
                 <ReactPlayer
-                url="https://youtu.be/es4x5R-rV9s"
+                url="https://youu.be/es4x5R-rV9s"
                 width="100%"
                 height="calc(100vh - 100px)"
                 />
@@ -63,24 +63,24 @@ class CourseSidebar extends Component {
                     </div>
                 </div>
                     <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
-                        <div className="course__video-price">
+                        {/* <div className="course__video-price">
                             <h5>$74.<span>00</span> </h5>
                             <h5 className="old-price">$129.00</h5>
-                        </div>
-                        <div className="course__video-discount">
+                        </div> */}
+                        {/* <div className="course__video-discount">
                             <span>68% OFF</span>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="course__video-content mb-35">
                         <ul>
-                            <li className="d-flex align-items-center">
-                            <div className="course__video-icon">
-                                <i className="fas fa-home"></i>
-                            </div>
-                            <div className="course__video-info">
-                                <h5><span>Instructor :</span> Eleanor Fant</h5>
-                            </div>
-                            </li>
+                            {/* <li className="d-flex align-items-center">
+                                <div className="course__video-icon">
+                                    <i className="fas fa-home"></i>
+                                </div>
+                                <div className="course__video-info">
+                                    <h5><span>Instructor :</span> Eleanor Fant</h5>
+                                </div>
+                            </li> */}
                             <li className="d-flex align-items-center">
                             <div className="course__video-icon">
                                 <i className="fas fa-book"></i>
@@ -115,90 +115,90 @@ class CourseSidebar extends Component {
                             </li>
                         </ul>
                     </div>
-                    <div className="course__payment mb-35">
+                    {/* <div className="course__payment mb-35">
                         <h3>Payment:</h3>
                         <a href="#">
                             <img src="assets/img/course/payment/payment-1.png" alt="img not found"/>
                         </a>
-                    </div>
+                    </div> */}
                     <div className="course__enroll-btn">
-                        <Link href="/course-grid"><a className="e-btn e-btn-7 w-100">Enroll <i className="fas fa-arrow-right"></i></a></Link>
+                        <Link href="/"><a className="e-btn e-btn-7 w-100">Enroll <i className="fas fa-arrow-right"></i></a></Link>
                     </div>
                 </div>
                 </div>
-                <div className="course__sidebar-widget-2 white-bg mb-20">
-                <div className="course__sidebar-course">
-                    <h3 className="course__sidebar-title">Related courses</h3>
-                    <ul>
-                        <li>
-                            <div className="course__sm d-flex align-items-center mb-30">
-                            <div className="course__sm-thumb mr-20">
-                                <Link href="/course-grid"><a><img src="assets/img/course/sm/course-sm-1.jpg" alt="img not found"/></a></Link>
-                            </div>
-                            <div className="course__sm-content">
-                                <div className="course__sm-rating">
-                                    <ul>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                    </ul>
+                {/* <div className="course__sidebar-widget-2 white-bg mb-20">
+                    <div className="course__sidebar-course">
+                        <h3 className="course__sidebar-title">Related courses</h3>
+                        <ul>
+                            <li>
+                                <div className="course__sm d-flex align-items-center mb-30">
+                                <div className="course__sm-thumb mr-20">
+                                    <Link href="/"><a><img src="assets/img/course/sm/course-sm-1.jpg" alt="img not found"/></a></Link>
                                 </div>
-                                <h5><Link href="/course-grid"><a>Development</a></Link></h5>
-                                <div className="course__sm-price">
-                                    <span>$54.00</span>
+                                <div className="course__sm-content">
+                                    <div className="course__sm-rating">
+                                        <ul>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                        </ul>
+                                    </div>
+                                    <h5><Link href="/"><a>Development</a></Link></h5>
+                                    <div className="course__sm-price">
+                                        <span>$54.00</span>
+                                    </div>
                                 </div>
-                            </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div className="course__sm d-flex align-items-center mb-30">
-                            <div className="course__sm-thumb mr-20">
-                                <Link href="/course-grid"><a><img src="assets/img/course/sm/course-sm-2.jpg" alt="img not found"/></a></Link>
-                            </div>
-                            <div className="course__sm-content">
-                                <div className="course__sm-rating">
-                                    <ul>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                    </ul>
                                 </div>
-                                <h5><Link href="/course-grid"><a>Data Science</a></Link></h5>
-                                <div className="course__sm-price">
-                                    <span>$72.00</span>
+                            </li>
+                            <li>
+                                <div className="course__sm d-flex align-items-center mb-30">
+                                <div className="course__sm-thumb mr-20">
+                                    <Link href="/"><a><img src="assets/img/course/sm/course-sm-2.jpg" alt="img not found"/></a></Link>
                                 </div>
-                            </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div className="course__sm d-flex align-items-center mb-10">
-                            <div className="course__sm-thumb mr-20">
-                                <Link href="/course-grid"><a><img src="assets/img/course/sm/course-sm-3.jpg" alt="img not found"/></a></Link>
-                            </div>
-                            <div className="course__sm-content">
-                                <div className="course__sm-rating">
-                                    <ul>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                        <li><a href="#"> <i className="fas fa-star"></i> </a></li>
-                                    </ul>
+                                <div className="course__sm-content">
+                                    <div className="course__sm-rating">
+                                        <ul>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                        </ul>
+                                    </div>
+                                    <h5><Link href="/"><a>Data Science</a></Link></h5>
+                                    <div className="course__sm-price">
+                                        <span>$72.00</span>
+                                    </div>
                                 </div>
-                                <h5><Link href="/course-grid"><a>UX Design</a></Link></h5>
-                                <div className="course__sm-price">
-                                    <span>Free</span>
                                 </div>
-                            </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                </div>
+                            </li>
+                            <li>
+                                <div className="course__sm d-flex align-items-center mb-10">
+                                <div className="course__sm-thumb mr-20">
+                                    <Link href="/"><a><img src="assets/img/course/sm/course-sm-3.jpg" alt="img not found"/></a></Link>
+                                </div>
+                                <div className="course__sm-content">
+                                    <div className="course__sm-rating">
+                                        <ul>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                            <li><a href="#"> <i className="fas fa-star"></i> </a></li>
+                                        </ul>
+                                    </div>
+                                    <h5><Link href="/"><a>UX Design</a></Link></h5>
+                                    <div className="course__sm-price">
+                                        <span>Free</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> */}
             </div>
             </React.Fragment>
         );
