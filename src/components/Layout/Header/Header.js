@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import BurgerMenus from './BurgerMenus';
-import ShopingCart from './ShopingCart';
+// import ShopingCart from './ShopingCart';
 
 const Header = () => {
 
@@ -87,7 +87,7 @@ const Header = () => {
                         </div>
                      </div>
                      <div className="col-xxl-9 col-xl-9 col-lg-8 col-md-10 col-sm-8 col-6">
-                        <div className="header__right d-flex justify-content-evenly align-items-center">
+                        <div className="header__right d-flex justify-content-end justify-content-md-evenly align-items-center">
                            <div className="main-menu d-none d-xl-block">
                               <nav id="mobile-menu">
                                  <ul>
@@ -187,8 +187,8 @@ const Header = () => {
             <BurgerMenus menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <div onClick={() => setMenuOpen(false)} className={menuOpen ? "body-overlay show" : "body-overlay"}></div>
 
-            <ShopingCart shopOpen={shopOpen} setShopOpen={setShopOpen} />
-            <div onClick={() => setShopOpen(false)} className={shopOpen ? "body-overlay show" : "body-overlay"}></div>
+            {/* <ShopingCart shopOpen={shopOpen} setShopOpen={setShopOpen} /> */}
+            {/* <div onClick={() => setShopOpen(false)} className={shopOpen ? "body-overlay show" : "body-overlay"}></div> */}
 
          </header>
       </React.Fragment>

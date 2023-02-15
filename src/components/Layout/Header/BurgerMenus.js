@@ -54,35 +54,34 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
           </div>
           <div className="sidebar__content">
               <div className="logo mb-40">
-                <Link href="/"><a><img src="assets/img/logo/logo.png" alt="logo"/></a></Link>
+                <Link href="/"><a><img width="77" src="assets/img/logo/tau-globalacademy-logo.png" alt="tau global academy"/></a></Link>
               </div>
               <div className="mm-menu">
                 <ul>
-                  <li className={home ? "has-droupdown active" : "has-droupdown"}>
+                  <li className={home ? "has-droupdown active" : "has-droupdo"}>
                     <a onClick={() => { openMobileMenu('home'); }}>Home</a>
-                    <ul className={home ? "sub-menu active" : "sub-menu"}>
+                    {/* <ul className={home ? "sub-menu active" : "sub-menu"}>
                       <li><Link href="/"><a>Home 1</a></Link></li>
                       <li><Link href="/home-2"><a>Home 2</a></Link></li>
                       <li><Link href="/home-3"><a>Home 3</a></Link></li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li className={courses ? "has-droupdown active" : "has-droupdown"}>
                     <a onClick={() => { openMobileMenu('courses'); }}>Courses</a>
                     <ul className={courses ? "sub-menu active" : "sub-menu"}>
-                      <li><Link href="/course-grid"><a>Courses </a></Link></li>
-                      <li><Link href="/course-list"><a>Course List</a></Link></li>
-                      <li><Link href="/course-sidebar"><a>Course Sidebar</a></Link></li>
-                      <li><Link href="/course-details"><a>Course Details</a></Link></li>
+                      <li><Link href="/"><a>Project Management</a></Link></li>
+                      <li><Link href="/"><a>IELTS</a></Link></li>
+                      <li><Link href="/"><a>Health Care</a></Link></li>
                     </ul>
                   </li>
-                  <li className={blog ? "has-droupdown active" : "has-droupdown"}>
+                  <li className={blog ? "has-droupdown active" : "has-drpdown"}>
                     <a onClick={() => { openMobileMenu('blog'); }}>Blog</a>
-                    <ul className={blog ? "sub-menu active" : "sub-menu"}>
+                    {/* <ul className={blog ? "sub-menu active" : "sub-menu"}>
                       <li><Link href="/blog" as="/blog"><a>Blog</a></Link></li>
                       <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
-                    </ul>
+                    </ul> */}
                   </li>
-                  <li className={pages ? "has-droupdown active" : "has-droupdown"}>
+                  {/* <li className={pages ? "has-droupdown active" : "has-droupdown"}>
                     <a onClick={() => { openMobileMenu('pages'); }}>Pages</a>
                     <ul className={pages ? "sub-menu active" : "sub-menu"}>
                       <li><Link href="/about"><a>About</a></Link></li>
@@ -96,17 +95,17 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
                       <li><Link href="/sign-up"><a>Sign Up</a></Link></li>
                       <li><Link href="/error"><a>Error</a></Link></li>
                   </ul>
-                </li>
+                </li> */}
                 <li><Link href="/contact"><a>Contact</a></Link></li>
               </ul>
             </div>
 
-              <div className="sidebar__search p-relative mt-40 ">
+              {/* <div className="sidebar__search p-relative mt-40 ">
                 <form action="#">
                     <input type="text" placeholder="Search..."/>
                     <button type="submit"><i className="fas fa-search"></i></button>
                 </form>
-              </div>
+              </div> */}
               {/* <div className="sidebar__cart mt-30">
                 <a href="#">
                     <div className="header__cart-icon">

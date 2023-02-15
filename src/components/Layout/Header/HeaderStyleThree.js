@@ -89,7 +89,7 @@ const HeaderThree = () => {
                         </div>
                      </div>
                      <div className="col-xxl-9 col-xl-9 col-lg-8 col-md-10 col-sm-8 col-6">
-                        <div className="header__right d-flex justify-content-evenly align-items-center">
+                        <div className="header__right d-flex justify-content-end justify-content-md-evenly align-items-center">
                            <div className="main-menu d-none d-xl-block">
                               <nav id="mobile-menu">
                                  <ul>
