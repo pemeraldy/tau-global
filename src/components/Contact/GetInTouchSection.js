@@ -11,7 +11,7 @@ class GetInTouch extends Component {
                   <div className="col-xxl-7 col-xl-7 col-lg-6">
                      <div className="contact__wrapper">
                         <div className="section__title-wrapper mb-40">
-                           <h2 className="section__title">Get in<span className="yellow-bg yellow-bg-big">touch<img src="assets/img/shape/yellow-bg.png" alt="img not found"/></span></h2>
+                           <h2 className="section__title">Get in <span className="yellow-bg yellow-bg-big">touch<img src="assets/img/shape/yellow-bg.png" alt="img not found"/></span></h2>
                            <p>Have a question or just want to say hi? We'd love to hear from you.</p>
                         </div>
                         <div className="contact__form">
@@ -71,8 +71,8 @@ class GetInTouch extends Component {
                                        </svg>
                                     </div>
                                     <div className="contact__info-text">
-                                       <h4>New York Office</h4>
-                                       <p><a target="_blank" href="https://www.google.com/maps/place/Dhaka/@23.7806207,90.3492859,12z/data=!3m1!4b1!4m5!3m4!1s0x3755b8b087026b81:0x8fa563bbdd5904c2!8m2!3d23.8104753!4d90.4119873">Maypole Crescent 70-80 Upper St Norwich NR2 1LT</a></p>
+                                       <h4>Address</h4>
+                                       <p><a target="_blank" href="https://goo.gl/maps/dUK9ZuQm3xNkVu158">No. 512 Zunger Street, 4th Avenue, Gwarinpa, Abuja.</a></p>
    
                                     </div>
                                  </div>
@@ -87,8 +87,8 @@ class GetInTouch extends Component {
                                     </div>
                                     <div className="contact__info-text">
                                        <h4>Email us directly</h4>
-                                       <p><a href="mailto:support@educal.com">support@educal.com</a></p>
-                                       <p><a href="mailto:info@educal.com"> info@educal.com</a></p>
+                                       <p><a href="mailto:support@educal.com">info@tauglobalacademy.com</a></p>
+                                       {/* <p><a href="mailto:info@educal.com"> info@educal.com</a></p> */}
                                     </div>
                                  </div>
                               </li>
@@ -101,8 +101,8 @@ class GetInTouch extends Component {
                                     </div>
                                     <div className="contact__info-text">
                                        <h4>Phone</h4>
-                                       <p><a href="tel:+(426)-742-26-44">+(426) 742 26 44</a></p>
-                                       <p><a href="tel:+(224)-762-442-32">+(224) 762 442 32</a></p>
+                                       <p><a href="tel:+(234)9133349378">+(234) 9133349378</a></p>
+                                       <p><a href="tel:+(234)9044455413">+(234) 9044455413</a></p>
                                     </div>
                                  </div>
                               </li>
@@ -112,7 +112,7 @@ class GetInTouch extends Component {
                               <ul>
                                 <li><a href="#" className="fb"><i className="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#" className="tw"><i className="fab fa-twitter"></i></a></li>
-                                <li><a href="#" className="pin"><i className="fab fa-pinterest-p"></i></a></li>
+                                {/* <li><a href="#" className="pin"><i className="fab fa-pinterest-p"></i></a></li> */}
                               </ul>
                            </div>
                         </div>
