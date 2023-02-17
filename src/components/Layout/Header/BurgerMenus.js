@@ -44,22 +44,34 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
       }; 
 
       return (
-      <div className={menuOpen ? "sidebar__area open": "sidebar__area"}>
-        <div className="sidebar__wrapper">
-          <div className="sidebar__close">
+        <div className={menuOpen ? "sidebar__area open" : "sidebar__area"}>
+          <div className="sidebar__wrapper">
+            <div className="sidebar__close">
               <button className="sidebar__close-btn" id="sidebar__close-btn" onClick={() => setMenuOpen(false)}>
-                <span><i className="fas fa-times"></i></span>
+                <span>
+                  <i className="fas fa-times"></i>
+                </span>
                 <span>close</span>
               </button>
-          </div>
-          <div className="sidebar__content">
+            </div>
+            <div className="sidebar__content">
               <div className="logo mb-40">
-                <Link href="/"><a><img width="77" src="assets/img/logo/tau-globalacademy-logo.png" alt="tau global academy"/></a></Link>
+                <Link href="/">
+                  <a>
+                    <img width="77" src="assets/img/logo/tau-globalacademy-logo.png" alt="tau global academy" />
+                  </a>
+                </Link>
               </div>
               <div className="mm-menu">
                 <ul>
                   <li className={home ? "has-droupdown active" : "has-droupdo"}>
-                    <a onClick={() => { openMobileMenu('home'); }}>Home</a>
+                    <a
+                      onClick={() => {
+                        openMobileMenu("home");
+                      }}
+                    >
+                      Home
+                    </a>
                     {/* <ul className={home ? "sub-menu active" : "sub-menu"}>
                       <li><Link href="/"><a>Home 1</a></Link></li>
                       <li><Link href="/home-2"><a>Home 2</a></Link></li>
@@ -67,15 +79,45 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
                     </ul> */}
                   </li>
                   <li className={courses ? "has-droupdown active" : "has-droupdown"}>
-                    <a onClick={() => { openMobileMenu('courses'); }}>Courses</a>
+                    <a
+                      onClick={() => {
+                        openMobileMenu("courses");
+                      }}
+                    >
+                      Major Faculties
+                    </a>
                     <ul className={courses ? "sub-menu active" : "sub-menu"}>
-                      <li><Link href="/"><a>Project Management</a></Link></li>
-                      <li><Link href="/"><a>IELTS</a></Link></li>
-                      <li><Link href="/"><a>Health Care</a></Link></li>
+                      {/* faculties: , Languages, Healthcare, Travel Advisory) */}
+                      <li>
+                        <Link href="/">
+                          <a>IT &amp; Software</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/">
+                          <a>Languages</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/">
+                          <a>Healthcare</a>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/">
+                          <a>Travel Advisory</a>
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li className={blog ? "has-droupdown active" : "has-drpdown"}>
-                    <a onClick={() => { openMobileMenu('blog'); }}>Blog</a>
+                    <a
+                      onClick={() => {
+                        openMobileMenu("blog");
+                      }}
+                    >
+                      Blog
+                    </a>
                     {/* <ul className={blog ? "sub-menu active" : "sub-menu"}>
                       <li><Link href="/blog" as="/blog"><a>Blog</a></Link></li>
                       <li><Link href="/blog-details"><a>Blog Details</a></Link></li>
@@ -96,9 +138,13 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
                       <li><Link href="/error"><a>Error</a></Link></li>
                   </ul>
                 </li> */}
-                <li><Link href="/contact"><a>Contact</a></Link></li>
-              </ul>
-            </div>
+                  <li>
+                    <Link href="/contact">
+                      <a>Contact</a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
 
               {/* <div className="sidebar__search p-relative mt-40 ">
                 <form action="#">
@@ -118,11 +164,10 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
                     <span className="cart-item">2</span>
                 </a>
               </div> */}
+            </div>
           </div>
         </div>
-      </div>
-          
-    )
+      );
 }
 
 export default BurgerMenus;
