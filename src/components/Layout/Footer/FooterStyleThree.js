@@ -33,7 +33,7 @@ const FooterThree = () => {
                         <div className="col-xxl-2 offset-xxl-1 col-xl-2 offset-xl-1 col-lg-3 offset-lg-0 col-md-2 offset-md-1 col-sm-5 offset-sm-1">
                            <div className="footer__widget mb-50">
                               <div className="footer__widget-head mb-22">
-                                 <h3 className="footer__widget-title">Company</h3>
+                                 {/* <h3 className="footer__widget-title">Company</h3> */}
                               </div>
                               <div className="footer__widget-body">
                                  <div className="footer__link">
@@ -66,7 +66,7 @@ const FooterThree = () => {
                               </div>
                            </div>
                         </div> */}
-                        <div className="col-xxl-6 col-xl-4 col-lg-4 col-md-5 col-sm-6">
+                        {/* <div className="col-xxl-6 col-xl-4 col-lg-4 col-md-5 col-sm-6">
                            <div className="footer__widget footer__pl-70 mb-50">
                               <div className="footer__widget-head mb-22">
                                  <h3 className="footer__widget-title">Subscribe to our newsletters</h3>
@@ -86,7 +86,7 @@ const FooterThree = () => {
                                  </div>
                               </div>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>
