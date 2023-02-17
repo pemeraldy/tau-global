@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-
+import heroStyles from './HeroSection.module.scss'
 class Hero extends Component {
 
     render() {
@@ -33,15 +33,16 @@ class Hero extends Component {
                                         <img className="hero-1-circle-4" src="assets/img/shape/hero/hero-1-circle-4.png" alt="img not found"/>
                                     </div>
                                     <div className="hero__thumb-big mr-30">
-                                        <img src="assets/img/hero/hero-1.jpg" alt="img not found"/>
+                                        {/* <img src="assets/img/hero/hero-1.jpg" alt="img not found"/> */}
+                                        <img src="assets/img/hero/happy-student.jpeg" alt="img not found"/>
                                         <div className="hero__quote hero__quote-animation">
                                             <span>Your self-discovery starts here</span>
                                             <h4></h4>
                                         </div>
                                     </div>
-                                    <div className="hero__thumb-sm mt-50 d-none d-lg-block">
+                                    {/* <div className="hero__thumb-sm mt-50 d-none d-lg-block">
                                         <img src="assets/img/hero/hero-sm-1.jpg" alt="img not found"/>
-                                    </div>
+                                    </div> */}
                                     </div>
                                 </div>
                             </div>
