@@ -15,7 +15,7 @@ export default () => (
               <h2 className="section__title">
                 Find the Right
                 <br />
-                Online{" "}
+                
                 <span className="yellow-bg yellow-bg-big">
                   Course
                   <img src="assets/img/shape/yellow-bg.png" alt="img not found" />
