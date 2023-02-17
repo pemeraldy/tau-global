@@ -35,7 +35,7 @@ class HomeMain extends Component {
 				{/* About-end */}
 
 				{/* course-start */}
-				{/* <CourseTab /> */}
+				<CourseTab />
 				{/* course-end */}
 
 				{/* event-start */}
