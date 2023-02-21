@@ -19,7 +19,7 @@ class CourseGridMain extends Component {
 				{/* course tab-end */}
 
                 {/* cta-start */}
-				<Cta />
+				{/* <Cta /> */}
 				{/* cta-end */}
         	</main>
         );

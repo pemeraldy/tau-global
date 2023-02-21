@@ -1,31 +1,31 @@
 [
     {
       "id": "1",
-      "tag": "it",
+      "tag": "IT & SOFTWARE",
       "title": "Web Development",
       "image": "web-dev.jpg"     
     },
     {
       "id": "2",
-      "tag": "pm",
+      "tag": "PM",
       "title": "Scrum Masterclass",
       "image": "project-management.jpg"     
     },
     {
       "id": "3",
-      "tag": "language",
+      "tag": "LANGUAGE",
       "title": "Pass your IELTS in one sitting",
       "image": "ielts.jpg"     
     },
     {
       "id": "4",
-      "tag": "health",
+      "tag": "HEALTH",
       "title": "Become a Healthcare Assistant in less than two months",
       "image": "healthcare.jpg"     
     },
     {
       "id": "4",
-      "tag": "health",
+      "tag": "HEALTH",
       "title": "Learn French from scratch to professional",
       "image": "french.jpg"     
     }
