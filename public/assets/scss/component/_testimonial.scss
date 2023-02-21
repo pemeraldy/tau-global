@@ -236,3 +236,40 @@
         }
     }
 }
+
+
+.custom-testimonial__area{
+    .swiper{
+         padding-bottom: 43px !important;
+    }
+    .swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events {
+    //   padding: 83px 0 !important;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: -10px !important;
+    }
+    .testimonial-items {
+        background: #f8f9fb;
+        padding: 30px;
+        border-radius: 5px;
+        min-height: 100%;
+    }
+    .testimonial-header{
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .testimonial-title{
+        margin-left: 5px;
+    }
+    .testimoni-quotes img {       
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        // z-index: -1;
+        content: "";
+    }
+    .testimonial-body{
+        margin-bottom: 20px;
+    }
+}

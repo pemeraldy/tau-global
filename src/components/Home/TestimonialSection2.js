@@ -10,11 +10,11 @@ import "swiper/css/scrollbar";
 class TestimonialSection2 extends Component {
   render() {
     return (
-      <section className="testimonial__area pt-175 pb-170">
+      <section className="custom-testimonial__area pt-175 pb-170">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
-              <div className="section__title-wrapper mb-60">
+              <div className="section__title-wrapper text-center mb-60">
                 <h2 className="section__title">
                   What Students Think
                   <br />
@@ -53,7 +53,7 @@ class TestimonialSection2 extends Component {
                     <div className="testimonial-items position-relative">
                       <div className="testimonial-header">
                         <div className="testimonial-img">
-                          <img src="assets/img/testimonial/testimonial.png" alt="image not found" />
+                          <img src="assets/img/testimonial/image.png" alt="testifier" />
                         </div>
                         <div className="testimonial-title">
                           <h4>Richard Joseph</h4>
@@ -61,18 +61,12 @@ class TestimonialSection2 extends Component {
                         </div>
                       </div>
                       <div className="testimoni-quotes">
-                        <img src="assets/img/testimonial/quotes.png" alt="image not found" />
+                        <img src="assets/img/testimonial/quotes.png" alt="quotes icon" />
                       </div>
                       <div className="testimonial-body">
                         <h3>Helpful Instructors !</h3>
                         <p>There are so many websites out there that have not considered the overall usability of their visually impaired users. When it comes to designing better links.</p>
-                      </div>
-                      <div className="testimonial-icon">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                      </div>
+                      </div>                      
                     </div>
                   </SwiperSlide>
                 ))}

@@ -4,9 +4,3 @@
 @forward 'mixins';
 @forward 'breakpoints';
 
-.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events {
-  padding: 83px 0;
-}
-.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: -10px !important;
-}
