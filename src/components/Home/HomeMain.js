@@ -24,7 +24,7 @@ class HomeMain extends Component {
 					<br/>
 					<br/>
 					<br/>
-				<BrandWithNoSSR />
+				{/* <BrandWithNoSSR /> */}
 
 				{/* category-start */}
 				<Category />

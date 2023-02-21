@@ -1,0 +1,32 @@
+[
+    {
+      "id": "1",
+      "tag": "it",
+      "title": "Web Development",
+      "image": "web-dev.jpg"     
+    },
+    {
+      "id": "2",
+      "tag": "pm",
+      "title": "Scrum Masterclass",
+      "image": "project-management.jpg"     
+    },
+    {
+      "id": "3",
+      "tag": "language",
+      "title": "Pass your IELTS in one sitting",
+      "image": "ielts.jpg"     
+    },
+    {
+      "id": "4",
+      "tag": "health",
+      "title": "Become a Healthcare Assistant in less than two months",
+      "image": "healthcare.jpg"     
+    },
+    {
+      "id": "4",
+      "tag": "health",
+      "title": "Learn French from scratch to professional",
+      "image": "french.jpg"     
+    }
+]

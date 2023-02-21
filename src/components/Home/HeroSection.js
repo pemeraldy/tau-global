@@ -19,7 +19,7 @@ class Hero extends Component {
                                     <div className="hero__content p-relative z-index-1">
                                     <h3 className="hero__title">
                                         {/* <span>Access 2700+</span> */}
-                                        <span className="yellow-shape">Learn what matters <img src="assets/img/shape/yellow-bg.png" alt="yellow-shape"/> </span> 
+                                        <span className="yellow-shape">Learn what matters </span> 
                                         Stay relevant!</h3>
                                         <p>Choose from over 30 onsite courses</p>
                                         <Link href="/"><a className="e-btn">EXPLORE COURSES</a></Link>

@@ -4,6 +4,8 @@ const Tabs = dynamic(import('react-tabs').then(mod => mod.Tabs), { ssr: false })
 import { Tab, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Link from 'next/link';
+
+import courses from '../../../data/courses.json'
  
 export default () => (
   <section className="course__area pt-115 pb-120 grey-bg">
@@ -15,7 +17,6 @@ export default () => (
               <h2 className="section__title">
                 Find the Right
                 <br />
-                
                 <span className="yellow-bg yellow-bg-big">
                   Course
                   <img src="assets/img/shape/yellow-bg.png" alt="img not found" />
@@ -53,58 +54,56 @@ export default () => (
         </div>
         <TabPanel>
           <div className="row">
-            {
-               [1,2,3].map(el => (
-                  <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                     <div className="course__item white-bg mb-30 fix">
-                        <div className="course__thumb w-img p-relative fix">
-                           <Link href="/course-details">
-                           <a>
-                              <img src="assets/img/hero/college-students-studying.jpeg" alt="img not found" />
-                           </a>
-                           </Link>
-                           <div className="course__tag">{/* <Link href="/course-details"><a>Art & Design</a></Link> */}</div>
-                        </div>
-                        <div className="course__content">
-                           <div className="course__meta d-flex align-items-center justify-content-between">
-                           <div className="course__lesson">
-                              <span>
+            {courses.map((course, index) => (
+              <div key={index} className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                <div className="course__item white-bg mb-30 fix">
+                  <div className="course__thumb w-img p-relative fix">
+                    <Link href="/course-details">
+                      <a>
+                        <img src={`assets/img/courses/${course.image}`} alt="img not found" />
+                      </a>
+                    </Link>
+                    <div className="course__tag">{/* <Link href="/course-details"><a>Art & Design</a></Link> */}</div>
+                  </div>
+                  <div className="course__content">
+                    <div className="course__meta d-flex align-items-center justify-content-between">
+                      <div className="course__lesson">
+                        {/* <span>
                                  <i className="fas fa-book"></i>43 Lesson
-                              </span>
-                           </div>
-                           <div className="course__rating">
-                              {/* <span>
+                              </span> */}
+                      </div>
+                      <div className="course__rating">
+                        {/* <span>
                                  <i className="fas fa-star"></i>4.5 (44)
                               </span> */}
-                           </div>
-                           </div>
-                           <h3 className="course__title">
-                           <Link href="/course-details">
-                              <a>Become a product Manager learn the skills & job.</a>
-                           </Link>
-                           </h3>                  
-                        </div>
-                        <div className="course__more d-flex justify-content-between align-items-center">
-                           <div className="course__status">
-                           <span className='text-primary'>Enroll</span>
-                           </div>
-                           <div className="course__btn">
-                           <Link href="/course-details">
-                              <a className="link-btn">
-                                 Know Details
-                                 <i className="fas fa-arrow-right"></i>
-                                 <i className="fas fa-arrow-right"></i>
-                              </a>
-                           </Link>
-                           </div>
-                        </div>
-                     </div>
+                      </div>
+                    </div>
+                    <h3 className="course__title">
+                      <Link href="/course-details">
+                        <a>{course.title}</a>
+                      </Link>
+                    </h3>
                   </div>
-               ))
-            }
+                  <div className="course__more d-flex justify-content-between align-items-center">
+                    <div className="course__status">
+                      <span className="text-primary">Enroll</span>
+                    </div>
+                    <div className="course__btn">
+                      <Link href="/course-details">
+                        <a className="link-btn">
+                          Know Details
+                          <i className="fas fa-arrow-right"></i>
+                          <i className="fas fa-arrow-right"></i>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </TabPanel>
-        <TabPanel>
+        {/* <TabPanel>
           <div className="row">
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
               <div className="course__item white-bg mb-30 fix">
@@ -1078,7 +1077,7 @@ export default () => (
               </div>
             </div>
           </div>
-        </TabPanel>
+        </TabPanel> */}
       </div>
     </Tabs>
   </section>

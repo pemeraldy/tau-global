@@ -428,7 +428,7 @@ p {
 	text-align: center;
 	padding: 0 25px;
 	color: $white;
-	background: $e-green;
+	background: $e-blue;
 	@include border-radius(4px);
 	font-weight: 500;
 	@include sentence-case();
@@ -2183,4 +2183,11 @@ p {
 
 .pr-200 {
 	padding-right: 200px
+}
+
+.logoImage {
+	width: 120px;
+	@media #{$xs} {
+		width: 77px;
+	}
 }
