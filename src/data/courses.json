@@ -3,7 +3,18 @@
       "id": "1",
       "tag": "IT & SOFTWARE",
       "title": "Web Development",
-      "image": "web-dev.jpg"     
+      "image": "web-dev.jpg",
+      "lectures": 1, 
+      "duration": 1,
+      "description": "",
+      "tagert_audience": ["Business's managers, leaders", "Nurses or Doctors that want to JAPA"],
+      "curriculum": [
+        {
+          "week:": 1,
+          "topics": [" Ut enim ad minim veniam", "Greetings and introduction"]
+
+        }
+      ]
     },
     {
       "id": "2",
