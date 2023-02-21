@@ -1,31 +1,42 @@
 [
     {
       "id": "1",
-      "tag": "it",
+      "tag": "IT & SOFTWARE",
       "title": "Web Development",
-      "image": "web-dev.jpg"     
+      "image": "web-dev.jpg",
+      "lectures": 1, 
+      "duration": 1,
+      "description": "",
+      "tagert_audience": ["Business's managers, leaders", "Nurses or Doctors that want to JAPA"],
+      "curriculum": [
+        {
+          "week:": 1,
+          "topics": [" Ut enim ad minim veniam", "Greetings and introduction"]
+
+        }
+      ]
     },
     {
       "id": "2",
-      "tag": "pm",
+      "tag": "PM",
       "title": "Scrum Masterclass",
       "image": "project-management.jpg"     
     },
     {
       "id": "3",
-      "tag": "language",
+      "tag": "LANGUAGE",
       "title": "Pass your IELTS in one sitting",
       "image": "ielts.jpg"     
     },
     {
       "id": "4",
-      "tag": "health",
+      "tag": "HEALTH",
       "title": "Become a Healthcare Assistant in less than two months",
       "image": "healthcare.jpg"     
     },
     {
       "id": "4",
-      "tag": "health",
+      "tag": "HEALTH",
       "title": "Learn French from scratch to professional",
       "image": "french.jpg"     
     }

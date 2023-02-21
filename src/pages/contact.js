@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactMain from '../components/Contact/ContactMain';
-import HeaderThree from '../components/Layout/Header/HeaderStyleThree';
+import HeaderThree from "../components/Layout/Header/Header";
 import FooterThree from '../components/Layout/Footer/FooterStyleThree';
 
 class Contact extends React.Component {

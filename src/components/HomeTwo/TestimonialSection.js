@@ -20,19 +20,19 @@ class Testimonial extends Component {
                      <Swiper
                             // install Swiper modules
                             modules={[Navigation, Pagination, Scrollbar, A11y,]}
-                            spaceBetween={30}
-                            slidesPerView={1}
+                            spaceBetween={50}
+                            slidesPerView={3}
                             autoplaydisableoninteraction={"false"}
                             loop={true}
                             breakpoints={{
 
                                 // when window width is >= 768px
                                 768: {
-                                    slidesPerView: 1
+                                    slidesPerView: 3
                                 },
                                 1200: {
                                     // when window width is >= 992px
-                                    slidesPerView: 1,
+                                    slidesPerView: 3,
                                 }
                             }}
                         // pagination={{ clickable: true }}

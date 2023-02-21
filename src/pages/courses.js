@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../components/Layout/Footer/Footer';
 import CourseGridMain from '../components/CourseGrid/CourseGridMain';
-import HeaderThree from '../components/Layout/Header/HeaderStyleThree';
+import HeaderThree from "../components/Layout/Header/Header";
 
 class CourseGrid extends React.Component {
 
