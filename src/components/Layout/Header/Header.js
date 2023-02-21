@@ -45,7 +45,7 @@ const Header = () => {
                         <div className="header__left d-flex">
                            <div className="logo">
                               <Link href="/">
-                                 <a><img width="77" src="assets/img/logo/tau-globalacademy-logo.png" alt="tauglobal academy logo" /></a>
+                                 <a><img className='logoImage' src="assets/img/logo/tau-globalacademy-logo.png" alt="tauglobal academy logo" /></a>
                               </Link>
                            </div>
                            {/* <div className="header__category d-none d-lg-block">
@@ -106,8 +106,7 @@ const Header = () => {
                                     </li>
 
                                     <li className="has-dropown mx-3">
-                                       <Link href="/"><a>Blog</a></Link>
-                                       
+                                       <Link href="/"><a>Blog</a></Link>                                       
                                     </li>
 
                                     <li className="has-dropown mx-3">

@@ -62,9 +62,12 @@
                     bottom: 22px;
                     left: -8px;
                     z-index: -1;
-                    -webkit-animation: section-animation 3s infinite;
-                    animation: section-animation 3s infinite;
+                    -webkit-animation: section-animation 3s ease-in;
+                    animation: section-animation 3s ease-in;
 
+                    @media #{$xs}{
+                        display: none;
+                    }
                     @media #{$md}{
                         bottom: 12px;
                         height: 40% !important;

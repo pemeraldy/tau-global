@@ -43,12 +43,12 @@ export default () => (
                                     </Tab>
                                 </TabList>
                             </div>
-                            <div className="course__view">
+                            {/* <div className="course__view">
                                 <h4>Showing 1 - 9 of 84</h4>
-                            </div>
+                            </div> */}
                         </div>
                         </div>
-                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                        {/* <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
                         <div className="course__sort d-flex justify-content-sm-end">
                             <div className="course__sort-inner">
                                 <select>
@@ -62,7 +62,7 @@ export default () => (
                                 </select>
                             </div>
                         </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="row">
