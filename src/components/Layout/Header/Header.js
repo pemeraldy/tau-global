@@ -93,7 +93,6 @@ const Header = () => {
                                  <ul>
                                     <li className="mx-3">
                                        <Link href="/"><a>Home</a></Link>
-                                      
                                     </li>
                                     <li className="has-dropdown mx-3">
                                        <Link href="/"><a>Major Faculties</a></Link>
