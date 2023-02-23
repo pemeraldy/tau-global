@@ -8,8 +8,8 @@ import Link from 'next/link';
 
 import courses from "../../../data/courses.json";
  
-export default () => (
-  <section className="course__area pt-120 pb-120">
+export default ({id}) => (
+  <section id={id} className="course__area pt-120 pb-120">
     <Tabs>
       <div className="container">
         <div className="course__tab-inner grey-bg-2 mb-50">

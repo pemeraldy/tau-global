@@ -14,12 +14,12 @@ class Index extends React.Component {
 
     render() {
         return (
-            <React.Fragment>
+          <React.Fragment>
             <Header />
             <HomeMain />
-            <TestimonialSection2 />
+            <TestimonialSection2 id="reviews" />
             <Footer />
-            </React.Fragment>
+          </React.Fragment>
         );
     }
 }

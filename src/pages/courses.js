@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../components/Layout/Footer/Footer';
 import CourseGridMain from '../components/CourseGrid/CourseGridMain';
-import HeaderThree from "../components/Layout/Header/Header";
+import HeaderThree from "../components/Layout/Header/HeaderCourses";
 
 class CourseGrid extends React.Component {
 
@@ -15,7 +15,7 @@ class CourseGrid extends React.Component {
         return (
             <React.Fragment>
             <HeaderThree />
-            <CourseGridMain />
+            <CourseGridMain id="coursetabs" />
             <Footer />
             </React.Fragment>
         );

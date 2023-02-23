@@ -89,22 +89,22 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
                     <ul className={courses ? "sub-menu active" : "sub-menu"}>
                       {/* faculties: , Languages, Healthcare, Travel Advisory) */}
                       <li>
-                        <Link href="/">
+                        <Link href="#coursetabs">
                           <a>IT &amp; Software</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/">
+                        <Link href="#coursetabs">
                           <a>Languages</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/">
+                        <Link href="#coursetabs">
                           <a>Healthcare</a>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/">
+                        <Link href="#coursetabs">
                           <a>Travel Advisory</a>
                         </Link>
                       </li>
