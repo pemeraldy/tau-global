@@ -12,7 +12,7 @@ const Header = () => {
 
    const router = useRouter()
    const [path, setPath] = useState("")
-   useEffect(() => {
+   useEffect(() => { 
       setPath(router.pathname)
    }, [router])
 
@@ -99,25 +99,25 @@ const Header = () => {
                            </Link>
                          </li>
                          <li className="has-dropdown mx-3">
-                           <Link href="#categoriez">
+                           <Link href={router.pathname === "/" ? "#categoriez" : "/#categoriez"}>
                              <a>Major Faculties</a>
                            </Link>
                            <ul className="submenu">
                              <li>
-                               <Link href="#coursetabs">IT &amp; Software</Link>
+                               <Link href={router.pathname === "/" ? "#coursetabs" : "/#coursetabs"}>IT &amp; Software</Link>
                              </li>
                              <li>
-                               <Link href="#coursetabs">
+                               <Link href={router.pathname === "/" ? "#coursetabs" : "/#coursetabs"}>
                                  <a>Languages</a>
                                </Link>
                              </li>
                              <li>
-                               <Link href="#coursetabs">
+                               <Link href={router.pathname === "/" ? "#coursetabs" : "/#coursetabs"}>
                                  <a>Healthcare</a>
                                </Link>
                              </li>
                              <li>
-                               <Link href="#coursetabs">
+                               <Link href={router.pathname === "/" ? "#coursetabs" : "/#coursetabs"}>
                                  <a>Travel Advisory</a>
                                </Link>
                              </li>
@@ -131,14 +131,14 @@ const Header = () => {
                          </li>
 
                          <li className="has-dropown mx-3">
-                           <Link href="#reviews">
+                           <Link href={router.pathname === "/" ? "#reviews" : "/#reviews"}>
                              <a>Testimonials</a>
                            </Link>
                          </li>
 
                          <li className="has-dropown mx-3">
-                           <Link href="/">
-                             <a>Life At TGA</a>
+                           <Link href="#cowork">
+                             <a>Co Working Space</a>
                            </Link>
                          </li>
 
