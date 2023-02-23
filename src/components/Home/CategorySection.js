@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-class Category extends Component {
+function Category({id}) {
 
-    render() {
+    
 
         return (
-        <main>
+        <main id={id}>
             <section className="category__area pt-120 pb-70">
                 <div className="container">
                     <div className="row align-items-end">
@@ -151,7 +151,7 @@ class Category extends Component {
             </section>
         </main>
         );
-    }
+    
 }
 
 export default Category;

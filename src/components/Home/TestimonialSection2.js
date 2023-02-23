@@ -7,19 +7,19 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-class TestimonialSection2 extends Component {
-  render() {
+function TestimonialSection2 ({id}){
+
     return (
-      <section className="custom-testimonial__area pt-175 pb-170">
+      <section id={id} className="custom-testimonial__area pt-175 pb-170">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="section__title-wrapper text-center mb-60">
                 <h2 className="section__title">
-                  What Students Think
+                  What Students 
                   <br />
                   <span className="yellow-bg yellow-bg-big">
-                    & Say ABout Us
+                     Say ABout Us
                     <img src="assets/img/shape/yellow-bg.png" alt="img not found" />
                   </span>{" "}
                 </h2>
@@ -76,7 +76,7 @@ class TestimonialSection2 extends Component {
         </div>
       </section>
     );
-  }
+  
 }
 
 export default TestimonialSection2;

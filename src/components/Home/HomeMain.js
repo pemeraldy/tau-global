@@ -27,7 +27,7 @@ class HomeMain extends Component {
 				{/* <BrandWithNoSSR /> */}
 
 				{/* category-start */}
-				<Category />
+				<Category id="categoriez" />
 				{/* category-end */}
 
 				{/* About-start */}
@@ -35,7 +35,7 @@ class HomeMain extends Component {
 				{/* About-end */}
 
 				{/* course-start */}
-				<CourseTab />
+				<CourseTab id="coursetabs" />
 				{/* course-end */}
 
 				{/* event-start */}

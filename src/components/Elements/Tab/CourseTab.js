@@ -7,8 +7,8 @@ import Link from 'next/link';
 
 import courses from '../../../data/courses.json'
  
-export default () => (
-  <section className="course__area pt-115 pb-120 grey-bg">
+export default ({id}) => (
+  <section id={id} className="course__area pt-115 pb-120 grey-bg">
     <Tabs variant="enclosed" id="react-tabs-276">
       <div className="container">
         <div className="row align-items-end">

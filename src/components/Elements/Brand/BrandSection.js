@@ -12,6 +12,7 @@ class Brand extends Component {
     render() {
 
         return (
+            
             <section className="brand__area pb-110">
                 <div className="container">
                     <div className="row">
@@ -28,8 +29,8 @@ class Brand extends Component {
                                     <Swiper
                                         spaceBetween={30}
                                         slidesPerView={2}
-                                        autoplaydisableoninteraction={"false"}
-                                        loop={true}
+                                        autoplaydisableoninteraction={"true"}
+                                        loop={true}                                        
                                         breakpoints={{
                                             450: {
                                                 slidesPerView: 3
