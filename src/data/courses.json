@@ -3,11 +3,13 @@
       "id": "1",
       "tag": "IT & SOFTWARE",
       "title": "Web Development",
+      "subtitle": "Completely Updated for 2023/2024 with NEW lectures coding activities and projects!",
       "image": "web-dev.jpg",
-      "lectures": 1, 
-      "duration": 1,
-      "description": "",
-      "tagert_audience": ["Business's managers, leaders", "Nurses or Doctors that want to JAPA"],
+      "lectures": 12, 
+      "duration": "3 months",
+      "description": "Learn What It Takes to Code Dynamic, Professional Websites and Web Apps From The Comfort of Your Own Home \n Do you ever browse the internet wondering how your favorite websites were built? Facebook, Twitter, Amazon—they were all created by people who at one point in time didn’t know anything about coding. How did they obtain this knowledge? \n In this comprehensive course, we are going to show you everything you need to know so that you can follow in these people’s footsteps. You’re going to learn how to code AND you’re going to become a certified professional from a recognized international trainer. And best of all, you’re going to have fun doing it.  You Don’t Have to Be a Genius or a Mathematical Wizard. Our course starts teaching basic coding principles and develops your coding skills in a variety of languages from beginner through to advanced. Here it is, once and for all, a complete guide that will take you from novice to web developer. The internet has changed the rules of doing business. More and more companies are migrating online while many new, never before seen businesses are created every day thanks to the power of this phenomenon. You know what that means? Higher demand for people just like you! Don’t worry, you won’t need to buy any additional courses, it’s all here. No need to spend four years and over $15,000 per year in college tuition either—it really is all here. From HTML to CSS then to JavaScript and finally PHP, you will learn how to Become a Certified Web Developer.It Doesn’t Matter Where You’re Starting From...You Can Do It!",
+      "tagert_audience": ["Business's managers", "Leaders", "Nurses or Doctors that want to JAPA"],
+      "knowledges": ["Web Designers who Want to Learn To Code", "Traditional Programmers who Want to Learn Web Development", "People who Want to Develop Mobile Web Sites", "Students who want Practical Development Skills", "Web Masters who Need to Improve Development Skills", "Volunteers who Manage a Site for a Church or Non Profit","Teachers who Want to Introduce Web Development to Their Classes", "Those Considering a Career in Web Development"],
       "curriculum": [
         {
           "week:": 1,
@@ -19,25 +21,73 @@
     {
       "id": "2",
       "tag": "PM",
-      "title": "Scrum Masterclass",
-      "image": "project-management.jpg"     
+      "title": "Project Management",
+      "image": "project-management.jpg",
+       "lectures": 12, 
+      "duration": "3 months",
+      "description": "This course is carefully designed to cater to both PMPs and aspiring PMPs. It offers essential skills and knowledge required to effectively manage projects while establishing benefits and value realization systems, to not only complete the project on schedule, scope, cost and quality, but also to achieve the benefits thereof. It covers the ten (10) knowledge areas and the 49 processes outlined in the PMBOK 6. Additionally, the course covers the three main domains of the new exam’s syllabus: People, Process, and the Business Environment. Furthermore, there are supplementary materials on Grateful Leadership, Stakeholder Communications, Interfacing Risk and Earned Value Management etc. to make you a well-rounded Project Professional.The tests in this course are timed, so you’ll know when you’re taking more time than the official test allows, and at the end of the test you’ll receive a personal breakdown of the questions you answered correctly and incorrectly to help you continually improve. You’ll also be able to see an explanation for each question at the end of the test to help you avoid making the same mistakes when taking the exam. The practice test cover topics such as: Project basics, Initiate the project, Plan the project, Execute the project, Monitor and Control the project, Close the project, PMI Code of Ethics and Professional conduct etc.",
+      "tagert_audience": ["Business's managers", "Leaders", "Nurses or Doctors that want to JAPA"],
+      "knowledges": ["Demonstrate the formulas, charts, and theories of project management.","Calculate float for complex project network diagrams.","Memorize and use the formulas for earned value management.","Interface risk and earned value management to deliver successful project and business results.", "Develop robust communications management plan for different stakeholders.","Use the principles of Grateful Leadership and Emotional Intelligence to effectively lead your team to project success."],
+      "curriculum": [
+        {
+          "week:": 1,
+          "topics": [" Ut enim ad minim veniam", "Greetings and introduction"]
+
+        }
+      ] 
     },
     {
       "id": "3",
       "tag": "LANGUAGE",
       "title": "Pass your IELTS in one sitting",
-      "image": "ielts.jpg"     
+      "image": "ielts.jpg",
+       "lectures": 12, 
+      "duration": "3 months",
+      "description": "Persons intending to study, live or work in the English-speaking countries need to demonstrate their language skills through their success in IELTS test. IELTS is an assessment scheme developed to standardize the reporting format for the language proficiency of individuals. The test is evaluated through band scores that are graded on a scale of 0-9, with each number indicating a distinct level of English Language proficiency. The IELTS programme consists of four sections: Listening, Speaking Reading and Writing. Each of these sections forms 25% of the total IELTS band score. Consequently, each section holds equal importance. Tau Global Academy understands the philosophy and key success factors of the assessment system. At Tau Global Academy, we have a team of experienced resource persons with exceptional skills of determining areas of strengths and weaknesses of each student. The Pre-enrolment assessment of students is undertaken and thereafter coaching sessions begin which are deployed to enhance competence in all the aspects of IELTS. Mock Examinations are scheduled before test dates as part of the quality assurance mechanism for students’ examination preparation. Our IELTS training Programme is dynamic, both in scope and content. We offer training of IELTS resource persons. We also have Programmes for Life Skills and Academic requirement needs. Our programme contents are constantly reviewed to align with policies of the programme administrator and global best practices for content coaching.",
+      "tagert_audience": ["Business's managers", "Leaders", "Nurses or Doctors that want to JAPA"],
+      "knowledges": [],
+      "curriculum": [
+        {
+          "week:": 1,
+          "topics": [" Ut enim ad minim veniam", "Greetings and introduction"]
+
+        }
+      ]   
     },
     {
       "id": "4",
       "tag": "HEALTH",
       "title": "Become a Healthcare Assistant in less than two months",
-      "image": "healthcare.jpg"     
+      "image": "healthcare.jpg",
+       "lectures": 12, 
+      "duration": "3 months",
+      "description": "At the centre, we provide tutoring for persons who desire to acquire life skill enhancement courses that qualify non skilled persons as Care Givers. In the other programme, licensed nurses seeking U.K registration are coached for the CBT program, the Successful outcome meets U.K Professional Registration and demonstrates candidate ability and knowledge to practice nursing in the U.K",
+      "tagert_audience": ["Business's managers", "Leaders", "Nurses or Doctors that want to JAPA"],
+      "knowledges": ["Outline the three elements of health care provided by care assistants","Identify the steps taken by a local authority to provide social care services to those who need it","Recall the UK laws that govern the preparation and handling of food that protect the public from contamination hazards","Describe how food-borne diseases are caused and how to control them","Summarize how to help a victim of discrimination and how you can improve the quality of your work and workplace as a health and social care worker","List the four areas of social care","Indicate the types and signs of abuse and how to respond to them","List the six principles of safeguarding detailed in the UK Care Act 2014","Recognise the importance and categories of communication in caregiving","Analyze how to make decisions for care users who are mentally impaired","Define common medical jargon terms"],
+      "curriculum": [
+        {
+          "week:": 1,
+          "topics": [" Ut enim ad minim veniam", "Greetings and introduction"]
+
+        }
+      ]     
     },
     {
       "id": "4",
       "tag": "LANGUAGE",
       "title": "Learn French from scratch to professional",
-      "image": "french.jpg"     
+      "image": "french.jpg",
+       "lectures": 12, 
+      "duration": "3 months",
+      "description": "Learn What It Takes to Code Dynamic, Professional Websites and Web Apps From The Comfort of Your Own Home \n Do you ever browse the internet wondering how your favorite websites were built? Facebook, Twitter, Amazon—they were all created by people who at one point in time didn’t know anything about coding. How did they obtain this knowledge? \n In this comprehensive course, we are going to show you everything you need to know so that you can follow in these people’s footsteps. You’re going to learn how to code AND you’re going to become a certified professional from a recognized international trainer. And best of all, you’re going to have fun doing it.  You Don’t Have to Be a Genius or a Mathematical Wizard. Our course starts teaching basic coding principles and develops your coding skills in a variety of languages from beginner through to advanced. Here it is, once and for all, a complete guide that will take you from novice to web developer. The internet has changed the rules of doing business. More and more companies are migrating online while many new, never before seen businesses are created every day thanks to the power of this phenomenon. You know what that means? Higher demand for people just like you! Don’t worry, you won’t need to buy any additional courses, it’s all here. No need to spend four years and over $15,000 per year in college tuition either—it really is all here. From HTML to CSS then to JavaScript and finally PHP, you will learn how to Become a Certified Web Developer.It Doesn’t Matter Where You’re Starting From...You Can Do It!",
+      "tagert_audience": ["Business's managers", "Leaders", "Nurses or Doctors that want to JAPA"],
+      "knowledges": ["Web Designers who Want to Learn To Code", "Traditional Programmers who Want to Learn Web Development", "People who Want to Develop Mobile Web Sites", "Students who want Practical Development Skills", "Web Masters who Need to Improve Development Skills", "Volunteers who Manage a Site for a Church or Non Profit","Teachers who Want to Introduce Web Development to Their Classes", "Those Considering a Career in Web Development"],
+      "curriculum": [
+        {
+          "week:": 1,
+          "topics": [" Ut enim ad minim veniam", "Greetings and introduction"]
+
+        }
+      ]     
     }
 ]
