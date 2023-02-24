@@ -427,8 +427,10 @@ p {
 	line-height: 52px;
 	text-align: center;
 	padding: 0 25px;
-	color: $white;
-	background: $e-blue;
+	// color: $white;
+	// background: $e-blue;
+	color: #064316;
+  background: #edc81c;
 	@include border-radius(4px);
 	font-weight: 500;
 	@include sentence-case();
@@ -743,6 +745,9 @@ p {
 					width: 120%;
 					-webkit-animation: section-animation-2 3s infinite;
 					animation: section-animation-2 3s infinite;
+					@media #{$xs} {
+						animation: none;
+					}
 				}
 			}
 
@@ -752,6 +757,9 @@ p {
 					width: 120%;
 					-webkit-animation: section-animation-2 3s infinite;
 					animation: section-animation-2 3s infinite;
+					@media #{$xs} {
+						animation: none;
+					}
 				}
 			}
 		}

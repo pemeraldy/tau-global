@@ -22,7 +22,7 @@ class Hero extends Component {
                     </h3>
                     <p>Choose from over 30 onsite courses</p>
                     <Link href="#coursetabs">
-                      <a className="e-btn text-white">EXPLORE COURSES</a>
+                      <a className="e-btn">EXPLORE COURSES</a>
                     </Link>
                   </div>
                 </div>

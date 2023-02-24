@@ -17,40 +17,39 @@ class HomeMain extends Component {
     render() {
 
         return (
-            <main>
-	            {/* hero-start */}
-				<Hero />
-				{/* hero-end */}
-					<br/>
-					<br/>
-					<br/>
-				{/* <BrandWithNoSSR /> */}
+          <main>
+            {/* hero-start */}
+            <Hero />
+            {/* hero-end */}
+            <br />
+            <br />
+            <br />
+            {/* <BrandWithNoSSR /> */}
 
-				{/* category-start */}
-				<Category id="categoriez" />
-				{/* category-end */}
+            {/* category-start */}
+            <Category id="categoriez" />
+            {/* category-end */}
 
-				{/* About-start */}
-				<About />
-				{/* About-end */}
+            {/* About-start */}
+            <About id="about" />
+            {/* About-end */}
 
-				{/* course-start */}
-				<CourseTab id="coursetabs" />
-				{/* course-end */}
+            {/* course-start */}
+            <CourseTab id="coursetabs" />
+            {/* course-end */}
 
-				{/* event-start */}
-				{/* <Event /> */}
-				{/* event-end */}
+            {/* event-start */}
+            {/* <Event /> */}
+            {/* event-end */}
 
-				{/* tab-start */}
-				{/* <PriceTab /> */}
-				{/* tab-end */}
-				
-				{/* cta-start */}
-				{/* <Cta /> */}
-				{/* cta-end */}
+            {/* tab-start */}
+            {/* <PriceTab /> */}
+            {/* tab-end */}
 
-        	</main>
+            {/* cta-start */}
+            {/* <Cta /> */}
+            {/* cta-end */}
+          </main>
         );
     }
 }

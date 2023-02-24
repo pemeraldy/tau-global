@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 import courses from '../../../data/courses.json'
  
-export default ({id}) => (
+export default ({ id }) => (
   <section id={id} className="course__area pt-115 pb-120 grey-bg">
     <Tabs variant="enclosed" id="react-tabs-276">
       <div className="container">
@@ -19,7 +19,7 @@ export default ({id}) => (
                 <br />
                 <span className="yellow-bg yellow-bg-big">
                   Course
-                  <img src="assets/img/shape/yellow-bg.png" alt="img not found" />
+                  <img src="assets/img/shape/yellow-bg.png" alt="easthetics" />
                 </span>{" "}
                 for you
               </h2>
@@ -58,7 +58,7 @@ export default ({id}) => (
               <div key={index} className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                 <div className="course__item white-bg mb-30 fix">
                   <div className="course__thumb w-img p-relative fix">
-                    <Link href="/course-details">
+                    <Link href={`/courses/${course.id}`}>
                       <a>
                         <img src={`assets/img/courses/${course.image}`} alt="img not found" />
                       </a>
@@ -79,18 +79,18 @@ export default ({id}) => (
                       </div>
                     </div>
                     <h3 className="course__title">
-                      <Link href="/course-details">
+                      <Link href={`/courses/${course.id}`}>
                         <a>{course.title}</a>
                       </Link>
                     </h3>
                   </div>
                   <div className="course__more d-flex justify-content-between align-items-center">
-                    <div className="course__status">
+                    {/* <div className="course__status">
                       <span className="text-primary">Enroll</span>
-                    </div>
+                    </div> */}
                     <div className="course__btn">
-                      <Link href="/course-details">
-                        <a className="link-btn">
+                      <Link href={`/courses/${course.id}`}>
+                        <a className="link-btn text-blue">
                           Know Details
                           <i className="fas fa-arrow-right"></i>
                           <i className="fas fa-arrow-right"></i>

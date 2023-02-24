@@ -41,7 +41,7 @@ class Skilline extends Component {
                 </div>
                 <div className=" col-12 d-flex justify-content-center align-items-center">
                   <Link href="/contact">
-                    <a className="e-btn text-white">Get an office Space</a>
+                    <a className="e-btn">Get an office Space</a>
                     {/* <a className="e-btn e-btn-border-2">Get an office</a> */}
                   </Link>
                 </div>

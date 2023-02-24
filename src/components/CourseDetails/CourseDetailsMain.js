@@ -11,37 +11,35 @@ const CourseSliderWithNoSSR = dynamic(() => import('../Elements/Slider/CourseSli
 import Link from 'next/link';
 import CourseSidebar from './CourseSidebar';
 
-class CourseDetailsMain extends Component {
-
-    render() {
+function CourseDetailsMain ( {course})  {    
         return (
-            <React.Fragment>
+          <React.Fragment>
             <main>
-                {/* course tab-start */}
-				<section className="page__title-area pt-120 pb-90">
-                    <div className="page__title-shape">
-                        <img className="page-title-shape-5 d-none d-sm-block" src="assets/img/page-title/page-title-shape-1.png" alt="img not found"/>
-                        <img className="page-title-shape-6" src="assets/img/page-title/page-title-shape-6.png" alt="img not found"/>
-                        <img className="page-title-shape-7" src="assets/img/page-title/page-title-shape-4.png" alt="img not found"/>
-                    </div>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-xxl-8 col-xl-8 col-lg-8">
-                                <div className="course__wrapper">
-                                    <div className="page__title-content mb-25">
-                                        <div className="page__title-breadcrumb">                            
-                                            {/* <nav aria-label="breadcrumb">
+              {/* course tab-start */}
+              <section className="page__title-area pt-120 pb-90">
+                <div className="page__title-shape">
+                  <img className="page-title-shape-5 d-none d-sm-block" src="/assets/img/page-title/page-title-shape-1.png" alt="img not found" />
+                  <img className="page-title-shape-6" src="/assets/img/page-title/page-title-shape-6.png" alt="img not found" />
+                  <img className="page-title-shape-7" src="/assets/img/page-title/page-title-shape-4.png" alt="img not found" />
+                </div>
+                <div className="container">
+                  <div className="row">
+                    <div className="col-xxl-8 col-xl-8 col-lg-8">
+                      <div className="course__wrapper">
+                        <div className="page__title-content mb-25">
+                          <div className="page__title-breadcrumb">
+                            {/* <nav aria-label="breadcrumb">
                                                 <ol className="breadcrumb">
                                                     <li className="breadcrumb-item"><Link href="/"><a>Home</a></Link></li>
                                                     <li className="breadcrumb-item"><Link href="/course-grid"><a>Courses</a></Link></li>
                                                     <li className="breadcrumb-item active" aria-current="page">The business Intelligence analyst Course 2022</li>
                                                 </ol>
                                             </nav> */}
-                                        </div>
-                                    <span className="page__title-pre">Course</span>
-                                    <h5 className="page__title-3">A sample of what TAU course Details page looks like</h5>
-                                    </div>
-                                    {/* <div className="course__meta-2 d-sm-flex mb-30">
+                          </div>
+                          <span className="page__title-pre">{course.tag}</span>
+                          <h5 className="page__title-3">{course.title}</h5>
+                        </div>
+                        {/* <div className="course__meta-2 d-sm-flex mb-30">
                                         <div className="course__teacher-3 d-flex align-items-center mr-70 mb-30">
                                             <div className="course__teacher-thumb-3 mr-15">
                                                 <img src="assets/img/course/teacher/teacher-1.jpg" alt="img not found"/>
@@ -69,56 +67,68 @@ class CourseDetailsMain extends Component {
                                             </div>
                                         </div>
                                     </div> */}
-                                    <div className="course__img w-img mb-30">
-                                        <img src="assets/img/course/details/course-details-1.jpg" alt="img not found"/>
-                                    </div>
-                                    <Tabs>
-                                        <div className="course__tab-2 mb-45">
-                                            <ul className="navs flex justify-content-center nav-tabss" id="courseTab" role="tablist">
-                                                <TabList>
-                                                    <Tab>
-                                                        <button className="nav-link" type="button" role="tab"><i className="fas fa-ribbon"></i> <span>Discription</span> </button>
-                                                    </Tab>
-                                                    <Tab>
-                                                        <button className="nav-link" type="button"> <i className="fas fa-book"></i> <span>Curriculum</span> </button>
-                                                    </Tab>
-                                                    {/* <Tab>
+                        <div className="course__img w-img mb-30">
+                          <img src={`/assets/img/courses/${course.image}`} alt="img not found" />
+                        </div>
+                        <Tabs>
+                          <div className="course__tab-2 mb-45">
+                            <ul className="navs flex justify-content-center nav-tabss" id="courseTab" role="tablist">
+                              <TabList>
+                                <Tab>
+                                  <button className="nav-link" type="button" role="tab">
+                                    <i className="fas fa-ribbon"></i> <span>Discription</span>
+                                  </button>
+                                </Tab>
+                                {/* <Tab>
+                                  <button className="nav-link" type="button">
+                                    <i className="fas fa-book"></i> <span>Curriculum</span>
+                                  </button>
+                                </Tab> */}
+                                {/* <Tab>
                                                         <button className="nav-link" type="button"> <i className="fas fa-star"></i> <span>Reviews</span> </button>
                                                     </Tab> */}
-                                                    {/* <Tab>
+                                {/* <Tab>
                                                         <button className="nav-link" type="button"> <i className="fas fa-user"></i> <span>Members</span> </button>
                                                     </Tab> */}
-                                                </TabList>
-                                            </ul>
-                                        </div>
-                                        <div className="course__tab-content mb-95">
-                                            <div className="tab-contents">
-                                                <TabPanel>
-                                                    <div className="course__description">
-                                                        <h3>Course Overview</h3>
-                                                        <p>A detailed explantion of what the course is all about</p>
+                              </TabList>
+                            </ul>
+                          </div>
+                          <div className="course__tab-content mb-95">
+                            <div className="tab-contents">
+                              <TabPanel>
+                                <div className="course__description">
+                                  <h3>Course Overview</h3>
+                                  <h4 className="mb-4">{course.subtitle}</h4>
+                                  <p>{course.description}</p>
 
-                                                        <div className="course__tag-2 mb-35 mt-35">
-                                                        <i className="fas fa-tags"></i>
-                                                        <Link href="/course-details"><a>IELTS, </a></Link>
-                                                        <Link href="/course-details"><a>Healthcare professionals, </a></Link>
-                                                        <Link href="/course-details"><a>French</a></Link>
-                                                        </div>
-                                                        <div className="course__description-list mb-45">
-                                                        <h4>What is the Target Audience?</h4>
-                                                        <ul>
-                                                            <li> <i className="fas fa-check"></i> Business's managers, leaders</li>
-                                                            <li> <i className="fas fa-check"></i> Nurses or Doctors that want to JAPA </li>
-                                                            <li> <i className="fas fa-check"></i> Anyone who is finding a chance to get the promotion</li>
-                                                        </ul>
-                                                        </div>
-                                                        
-                                                    </div>
-                                                </TabPanel>
-                                                <TabPanel>
-                                                    <CourseAccordion />
-                                                </TabPanel>
-                                                {/* <TabPanel>
+                                {
+                                    course.knowledges.length > 0 ? (
+
+                                  <div className="course__description-list mb-45">
+                                    <h4>What you will learn from this course</h4>
+                                    <ul>
+                                      {course.knowledges.map((c) => (
+                                        <li>
+                                          <i className="fas fa-check"></i> {c}
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                    ) : ''
+                                }
+                                  <div className="course__enroll-btn">
+                                    <Link href="/contact">
+                                      <a className="e-btn e-btn-7 w-100">
+                                        Enroll <i className="fas fa-arrow-right"></i>
+                                      </a>
+                                    </Link>
+                                  </div>
+                                </div>
+                              </TabPanel>
+                              <TabPanel>
+                                <CourseAccordion />
+                              </TabPanel>
+                              {/* <TabPanel>
                                                     <div className="course__review">
                                                         <h3>Reviews</h3>
                                                         <p>Gosh william I'm telling crikey burke I don't want no agro A bit of how's your father bugger all mate off his nut that, what a plonker cuppa owt to do</p>
@@ -310,7 +320,7 @@ class CourseDetailsMain extends Component {
                                                         </div>
                                                     </div>
                                                 </TabPanel> */}
-                                                {/* <TabPanel>
+                              {/* <TabPanel>
                                                     <div className="course__member mb-45">
                                                         <div className="course__member-item">
                                                         <div className="row align-items-center">
@@ -407,7 +417,7 @@ class CourseDetailsMain extends Component {
                                                         </div>
                                                     </div>
                                                 </TabPanel> */}
-                                                {/* <div className="course__share">
+                              {/* <div className="course__share">
                                                     <h3>Share :</h3>
                                                     <ul>
                                                         <li><a href="#" className="fb"><i className="fab fa-facebook-f"></i></a></li>
@@ -415,10 +425,10 @@ class CourseDetailsMain extends Component {
                                                         <li><a href="#" className="pin"><i className="fab fa-pinterest-p"></i></a></li>
                                                     </ul>
                                                 </div> */}
-                                            </div>
-                                        </div>
-                                    </Tabs>
-                                    {/* <div className="course__related">
+                            </div>
+                          </div>
+                        </Tabs>
+                        {/* <div className="course__related">
                                         <div className="row">
                                             <div className="col-xxl-12">
                                                 <div className="section__title-wrapper mb-40">
@@ -433,24 +443,23 @@ class CourseDetailsMain extends Component {
                                             </div>
                                         </div>
                                     </div> */}
-                                </div>
-                            </div>
-                            <div className="col-xxl-4 col-xl-4 col-lg-4">
-                                <CourseSidebar />
-                            </div>
-                        </div>
+                      </div>
                     </div>
-                </section>
-				{/* course tab-end */}
+                    <div className="col-xxl-4 col-xl-4 col-lg-4">
+                      <CourseSidebar />
+                    </div>
+                  </div>
+                </div>
+              </section>
+              {/* course tab-end */}
 
-                {/* cta-start */}
-				{/* <Cta /> */}
-				{/* cta-end */}
-
-        	</main>
-            </React.Fragment>
+              {/* cta-start */}
+              {/* <Cta /> */}
+              {/* cta-end */}
+            </main>
+          </React.Fragment>
         );
-    }
+    
 }
 
 export default CourseDetailsMain;

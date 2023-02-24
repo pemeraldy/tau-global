@@ -28,7 +28,7 @@ export default ({id}) => (
                         </svg>
                       </button>
                     </Tab>
-                    <Tab>
+                    {/* <Tab>
                       <button className="nav-link list" id="list-tab" type="button">
                         <svg className="list" viewBox="0 0 512 512">
                           <g id="Layer_2_1_">
@@ -41,7 +41,7 @@ export default ({id}) => (
                           </g>
                         </svg>
                       </button>
-                    </Tab>
+                    </Tab> */}
                   </TabList>
                 </div>
                 {/* <div className="course__view">
@@ -76,13 +76,13 @@ export default ({id}) => (
                       <div key={index} className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                         <div className="course__item white-bg mb-30 fix">
                           <div className="course__thumb w-img p-relative fix">
-                            <Link href="/course-details">
+                            <Link href={`/courses/${course.id}`}>
                               <a>
                                 <img src={`/assets/img/courses/${course.image}`} alt="img not found" />
                               </a>
                             </Link>
                             <div className="course__tag">
-                              <Link href="/course-details">
+                              <Link href={`/courses/${course.id}`}>
                                 <a>{course.tag}</a>
                               </Link>
                             </div>
@@ -97,7 +97,7 @@ export default ({id}) => (
                                                 </div>
                                             </div> */}
                             <h3 className="course__title">
-                              <Link href="/course-details">
+                              <Link href={`/courses/${course.id}`}>
                                 <a>{course.title}</a>
                               </Link>
                             </h3>
@@ -113,7 +113,7 @@ export default ({id}) => (
                                                 <span>Free</span>
                                             </div> */}
                             <div className="course__btn">
-                              <Link href="/course-details">
+                              <Link href={`/courses/${course.id}`}>
                                 <a className="link-btn">
                                   Know Details
                                   <i className="fas fa-arrow-right"></i>
@@ -128,7 +128,7 @@ export default ({id}) => (
                   })}
                 </div>
               </TabPanel>
-              <TabPanel>
+              {/* <TabPanel>
                 <div className="row">
                   <div className="col-xxl-12">
                     <div className="course__item white-bg mb-30 fix">
@@ -150,14 +150,14 @@ export default ({id}) => (
                         <div className="col-xxl-8 col-xl-8 col-lg-8">
                           <div className="course__right">
                             <div className="course__content course__content-3">
-                              {/* <div className="course__meta d-flex align-items-center">
+                              <div className="course__meta d-flex align-items-center">
                                                     <div className="course__lesson mr-20">
                                                         <span><i className="fas fa-book"></i>43 Lesson</span>
                                                     </div>
                                                     <div className="course__rating">
                                                         <span><i className="fas fa-star"></i>4.5 (44)</span>
                                                     </div>
-                                                </div> */}
+                                                </div>
                               <h3 className="course__title course__title-3">
                                 <Link href="/course-details">
                                   <a>Creative writing through Storytelling</a>
@@ -166,17 +166,17 @@ export default ({id}) => (
                               <div className="course__summary">
                                 <p>Communia virtutes tutiorem declarat stoicorum sanabat oblivisci nostris tamquam iucunditatem</p>
                               </div>
-                              {/* <div className="course__teacher d-flex align-items-center">
+                              <div className="course__teacher d-flex align-items-center">
                                                     <div className="course__teacher-thumb mr-15">
                                                         <img src="assets/img/course/teacher/teacher-1.jpg" alt="img not found"/>
                                                     </div>
                                                     <h6><Link href="/instructor-details"><a>Jim Séchen</a></Link></h6>
-                                                </div> */}
+                                                </div>
                             </div>
                             <div className="course__more course__more-2 d-flex justify-content-between align-items-center">
-                              {/* <div className="course__status">
+                              <div className="course__status">
                                                     <span>Free</span>
-                                                </div> */}
+                                                </div>
                               <div className="course__btn">
                                 <Link href="/course-details">
                                   <a className="link-btn">
@@ -193,7 +193,7 @@ export default ({id}) => (
                     </div>
                   </div>
                 </div>
-              </TabPanel>
+              </TabPanel> */}
             </div>
           </div>
         </div>

@@ -46,7 +46,7 @@ const Header = () => {
                    <div className="logo">
                      <Link href="/">
                        <a>
-                         <img className="logoImage" src="assets/img/logo/tau-blobal-yellow.jpeg" alt="tauglobal academy logo" />
+                         <img className="logoImage" src="/assets/img/logo/tau-blobal-yellow.jpeg" alt="tauglobal academy logo" />
                        </a>
                      </Link>
                    </div>

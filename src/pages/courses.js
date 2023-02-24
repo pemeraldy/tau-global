@@ -15,7 +15,7 @@ class CourseGrid extends React.Component {
         return (
             <React.Fragment>
             <HeaderThree />
-            <CourseGridMain id="coursetabs" />
+            <CourseGridMain id="coursetabs" />;
             <Footer />
             </React.Fragment>
         );
