@@ -32,7 +32,7 @@ class Skilline extends Component {
                 <div className="col-xxl-5 col-xl-5 col-lg-6">
                   <div className="what__item transition-3 mb-30 p-relative fix">
                     <div className="what__thumb w-img">
-                      <img src="assets/img/banner/workstation.jpg" alt="coworking space" />
+                      <img src="assets/img/banner/workspace.webp" alt="coworking space" />
                     </div>
                     <div className="what__content p-absolute text-center">
                       <h3 className="what__title white-color"></h3>

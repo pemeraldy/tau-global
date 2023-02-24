@@ -116,7 +116,7 @@ export default ({id}) => (
                             <div className="course__btn">
                               <Link href={`/courses/${course.id}`}>
                                 <a className="link-btn">
-                                  Know Details
+                                  See Details
                                   <i className="fas fa-arrow-right"></i>
                                   <i className="fas fa-arrow-right"></i>
                                 </a>
