@@ -73,15 +73,15 @@
       ]     
     },
     {
-      "id": "4",
+      "id": "5",
       "tag": "LANGUAGE",
       "title": "Learn French from scratch to professional",
       "image": "french.jpg",
        "lectures": 12, 
       "duration": "3 months",
-      "description": "Learn What It Takes to Code Dynamic, Professional Websites and Web Apps From The Comfort of Your Own Home \n Do you ever browse the internet wondering how your favorite websites were built? Facebook, Twitter, Amazon—they were all created by people who at one point in time didn’t know anything about coding. How did they obtain this knowledge? \n In this comprehensive course, we are going to show you everything you need to know so that you can follow in these people’s footsteps. You’re going to learn how to code AND you’re going to become a certified professional from a recognized international trainer. And best of all, you’re going to have fun doing it.  You Don’t Have to Be a Genius or a Mathematical Wizard. Our course starts teaching basic coding principles and develops your coding skills in a variety of languages from beginner through to advanced. Here it is, once and for all, a complete guide that will take you from novice to web developer. The internet has changed the rules of doing business. More and more companies are migrating online while many new, never before seen businesses are created every day thanks to the power of this phenomenon. You know what that means? Higher demand for people just like you! Don’t worry, you won’t need to buy any additional courses, it’s all here. No need to spend four years and over $15,000 per year in college tuition either—it really is all here. From HTML to CSS then to JavaScript and finally PHP, you will learn how to Become a Certified Web Developer.It Doesn’t Matter Where You’re Starting From...You Can Do It!",
+      "description": "Have you ever wanted to learn French? Dubbed the “language of love”, French is used by over 235 million speakers daily in over 54 countries. But why should you pick French out of all the languages you could be learning? We provide French Courses that improve French Language Skills and achieve the level of language proficiency that enables effective communication in a French Speaking Community. Our program covers Foundation, Elementary, Intermediate and Advanced Proficiency levels that meet",
       "tagert_audience": ["Business's managers", "Leaders", "Nurses or Doctors that want to JAPA"],
-      "knowledges": ["Web Designers who Want to Learn To Code", "Traditional Programmers who Want to Learn Web Development", "People who Want to Develop Mobile Web Sites", "Students who want Practical Development Skills", "Web Masters who Need to Improve Development Skills", "Volunteers who Manage a Site for a Church or Non Profit","Teachers who Want to Introduce Web Development to Their Classes", "Those Considering a Career in Web Development"],
+      "knowledges": [],
       "curriculum": [
         {
           "week:": 1,

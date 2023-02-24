@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-class About extends Component {
-
-    render() {
+function About ({id}){
 
         return (
-          <section className="about__area pt-90 pb-150">
+          <section id={id} className="about__area pt-90 pb-150">
             <div className="container">
               <div className="row">
                 <div className="col-xxl-5 offset-xxl-1 col-xl-6 col-lg-6">
@@ -55,7 +53,6 @@ class About extends Component {
             </div>
           </section>
         );
-    }
 }
 
 export default About;
