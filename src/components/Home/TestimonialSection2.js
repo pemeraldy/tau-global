@@ -7,6 +7,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
+import testimonials from '../../data/testimonials.json'
+
 function TestimonialSection2 ({id}){
 
     return (
@@ -16,10 +18,10 @@ function TestimonialSection2 ({id}){
             <div className="col-lg-6 offset-lg-3">
               <div className="section__title-wrapper text-center mb-60">
                 <h2 className="section__title">
-                  What Students 
+                  What Students
                   <br />
                   <span className="yellow-bg yellow-bg-big">
-                     Say ABout Us
+                    Say ABout Us
                     <img src="assets/img/shape/yellow-bg.png" alt="img not found" />
                   </span>{" "}
                 </h2>
@@ -48,25 +50,25 @@ function TestimonialSection2 ({id}){
                   },
                 }}
               >
-                {[1, 2, 3, 4, 5, 5, 6, 7, 8].map((slide, index) => (
+                {testimonials.map((slide, index) => (
                   <SwiperSlide key={index}>
                     <div className="testimonial-items position-relative">
                       <div className="testimonial-header">
                         <div className="testimonial-img">
-                          <img src="assets/img/testimonial/image.png" alt="testifier" />
+                          {/* <img src="assets/img/testimonial/image.png" alt="testifier" /> */}
                         </div>
                         <div className="testimonial-title">
-                          <h4>Richard Joseph</h4>
-                          <span>Student</span>
+                          <h4>{slide.name}</h4>
+                          <span>{slide.role}</span>
                         </div>
                       </div>
                       <div className="testimoni-quotes">
                         <img src="assets/img/testimonial/quotes.png" alt="quotes icon" />
                       </div>
                       <div className="testimonial-body">
-                        <h3>Helpful Instructors !</h3>
-                        <p>There are so many websites out there that have not considered the overall usability of their visually impaired users. When it comes to designing better links.</p>
-                      </div>                      
+                        {/* <h3>Helpful Instructors !</h3> */}
+                        <p>{slide.body}</p>
+                      </div>
                     </div>
                   </SwiperSlide>
                 ))}

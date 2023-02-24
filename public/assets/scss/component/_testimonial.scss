@@ -242,6 +242,9 @@
     .swiper{
          padding-bottom: 43px !important;
     }
+    .swiper-slide{
+        height: auto !important;
+    }
     .swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events {
     //   padding: 83px 0 !important;
     }
