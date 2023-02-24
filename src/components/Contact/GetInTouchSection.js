@@ -101,7 +101,7 @@ class GetInTouch extends Component {
                             <div className="contact__info-text">
                               <h4>Email us directly</h4>
                               <p>
-                                <a href="mailto:support@educal.com">info@tauglobalacademy.com</a>
+                                <a href="mailto:info@tauglobalacademy.com">info@tauglobalacademy.com</a>
                               </p>
                               {/* <p><a href="mailto:info@educal.com"> info@educal.com</a></p> */}
                             </div>
@@ -130,17 +130,17 @@ class GetInTouch extends Component {
                         <h4>Follow Us</h4>
                         <ul>
                           <li>
-                            <a href="https://twitter.com/Tauglobalacademy"  target="_blank"  className="fb">
+                            <a href="https://twitter.com/Tauglobalacademy" target="_blank" className="fb">
                               <i className="fab fa-facebook-f"></i>
                             </a>
                           </li>
                           <li>
-                            <a href="https://twitter.com/Tauglobalabuja"  target="_blank" className="tw">
+                            <a href="https://twitter.com/Tauglobalabuja" target="_blank" className="tw">
                               <i className="fab fa-twitter"></i>
                             </a>
                           </li>
                           <li>
-                            <a href="https://twitter.com/Tauglobal_academy"  target="_blank" className="in">
+                            <a href="https://instagram.com/Tauglobal_academy" target="_blank" className="in">
                               <i className="fab fa-instagram"></i>
                             </a>
                           </li>

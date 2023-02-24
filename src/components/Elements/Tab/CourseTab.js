@@ -85,12 +85,12 @@ export default ({id}) => (
                     </h3>
                   </div>
                   <div className="course__more d-flex justify-content-between align-items-center">
-                    <div className="course__status">
+                    {/* <div className="course__status">
                       <span className="text-primary">Enroll</span>
-                    </div>
+                    </div> */}
                     <div className="course__btn">
                       <Link href="/course-details">
-                        <a className="link-btn">
+                        <a className="link-btn text-blue">
                           Know Details
                           <i className="fas fa-arrow-right"></i>
                           <i className="fas fa-arrow-right"></i>
