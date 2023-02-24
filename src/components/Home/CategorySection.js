@@ -1,84 +1,103 @@
-import React, { Component } from 'react';
-import Link from 'next/link';
+import React, { Component } from "react";
+import Link from "next/link";
 
-function Category({id}) {
-
-    
-
-        return (
-        <main id={id}>
-            <section className="category__area pt-120 pb-70">
-                <div className="container">
-                    <div className="row align-items-end">
-                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
-                            <div className="section__title-wrapper mb-45">
-                                <h2 className="section__title">Explore <br/>Our <span className="yellow-bg">Popular <img src="assets/img/shape/yellow-bg-2.png" alt="img not found"/>  </span>Courses
-                                </h2>
-                            </div>
-                        </div>
-                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-4">
-                            {/* <div className="category__more mb-50 float-md-end fix">
+function Category({ id }) {
+  return (
+    <main id={id}>
+      <section className="category__area pt-120 pb-70">
+        <div className="container">
+          <div className="row align-items-end">
+            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
+              <div className="section__title-wrapper mb-45">
+                <h2 className="section__title">
+                  Explore <br />
+                  Our{" "}
+                  <span className="yellow-bg">
+                    Popular <img src="assets/img/shape/yellow-bg-2.png" alt="img not found" />{" "}
+                  </span>
+                  Courses
+                </h2>
+              </div>
+            </div>
+            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-4">
+              {/* <div className="category__more mb-50 float-md-end fix">
                                 <Link href="/"><a className="link-btn">
                                     View all Category
                                     <i className="fas fa-arrow-right"></i>
                                     <i className="fas fa-arrow-right"></i>
                                 </a></Link>
                             </div> */}
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                            <div className="category__item mb-30 transition-3 d-flex align-items-center">
-                                <div className="category__icon mr-30">
-                                <svg viewBox="0 0 512 512">
-                                        <g>
-                                            <path className="st0" d="M178.7,492H120c-55.2,0-100-44.8-100-100V120C20,64.8,64.8,20,120,20h58.7C123.7,20,81,64.8,81,120v272   C81,447.2,123.7,492,178.7,492z M355.5,204.8l18.9-85.5c4.8-24.1,16.7-46.3,34.1-63.7l35.4-35.4c-15.1-1.4-30.7,3.7-42.3,15.3   l-61.1,61.1c-17.4,17.4-29.3,39.6-34.1,63.7L295,217l56.7-11.3C352.9,205.4,354.2,205.1,355.5,204.8L355.5,204.8z"/>
-                                            <path className="st1" d="M299,512H120C53.8,512,0,458.2,0,392V120C0,53.8,53.8,0,120,0h183c11,0,20,9,20,20s-9,20-20,20H120   c-44.1,0-80,35.9-80,80v272c0,44.1,35.9,80,80,80h179c44.1,0,80-35.9,80-80V272c0-11,9-20,20-20s20,9,20,20v120   C419,458.2,365.2,512,299,512z M298.9,236.6l56.7-11.3c28.1-5.6,53.7-19.3,73.9-39.6l61.1-61.1c28.5-28.5,28.5-74.8,0-103.2   c-28.5-28.5-74.8-28.5-103.2,0l-61.1,61.1c-20.3,20.3-33.9,45.8-39.6,73.9l-11.3,56.7c-1.3,6.6,0.7,13.3,5.5,18.1   c3.8,3.8,8.9,5.9,14.1,5.9C296.3,237,297.6,236.9,298.9,236.6L298.9,236.6z M462.4,49.7c6.2,6.2,9.7,14.5,9.7,23.3   s-3.4,17.1-9.7,23.3l-61.1,61.1c-14.7,14.7-33.2,24.6-53.5,28.6l-27.3,5.4l5.4-27.3c4.1-20.3,14-38.8,28.6-53.5l61.1-61.1   c6.2-6.2,14.5-9.7,23.3-9.7S456.1,43.4,462.4,49.7L462.4,49.7z"/>
-                                            <path className="st2" d="M319,352H101c-11,0-20-9-20-20s9-20,20-20h218c11,0,20,9,20,20S330.1,352,319,352z M211,387   c-13.8,0-25,11.2-25,25s11.2,25,25,25s25-11.2,25-25S224.8,387,211,387z"/>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div className="category__content">
-                                <h4 className="category__title"><Link href="/courses"><a>IT & Software</a></Link></h4>
-                                <p>Learn tech skills</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                            <div className="category__item mb-30 transition-3 d-flex align-items-center">
-                                <div className="category__icon mr-30">
-                                <svg viewBox="0 0 512 512">
-                                        <g>
-                                            <path className="st0" d="M178.7,492H120c-55.2,0-100-44.8-100-100V120C20,64.8,64.8,20,120,20h58.7C123.7,20,81,64.8,81,120v272   C81,447.2,123.7,492,178.7,492z M355.5,204.8l18.9-85.5c4.8-24.1,16.7-46.3,34.1-63.7l35.4-35.4c-15.1-1.4-30.7,3.7-42.3,15.3   l-61.1,61.1c-17.4,17.4-29.3,39.6-34.1,63.7L295,217l56.7-11.3C352.9,205.4,354.2,205.1,355.5,204.8L355.5,204.8z"/>
-                                            <path className="st1" d="M299,512H120C53.8,512,0,458.2,0,392V120C0,53.8,53.8,0,120,0h183c11,0,20,9,20,20s-9,20-20,20H120   c-44.1,0-80,35.9-80,80v272c0,44.1,35.9,80,80,80h179c44.1,0,80-35.9,80-80V272c0-11,9-20,20-20s20,9,20,20v120   C419,458.2,365.2,512,299,512z M298.9,236.6l56.7-11.3c28.1-5.6,53.7-19.3,73.9-39.6l61.1-61.1c28.5-28.5,28.5-74.8,0-103.2   c-28.5-28.5-74.8-28.5-103.2,0l-61.1,61.1c-20.3,20.3-33.9,45.8-39.6,73.9l-11.3,56.7c-1.3,6.6,0.7,13.3,5.5,18.1   c3.8,3.8,8.9,5.9,14.1,5.9C296.3,237,297.6,236.9,298.9,236.6L298.9,236.6z M462.4,49.7c6.2,6.2,9.7,14.5,9.7,23.3   s-3.4,17.1-9.7,23.3l-61.1,61.1c-14.7,14.7-33.2,24.6-53.5,28.6l-27.3,5.4l5.4-27.3c4.1-20.3,14-38.8,28.6-53.5l61.1-61.1   c6.2-6.2,14.5-9.7,23.3-9.7S456.1,43.4,462.4,49.7L462.4,49.7z"/>
-                                            <path className="st2" d="M319,352H101c-11,0-20-9-20-20s9-20,20-20h218c11,0,20,9,20,20S330.1,352,319,352z M211,387   c-13.8,0-25,11.2-25,25s11.2,25,25,25s25-11.2,25-25S224.8,387,211,387z"/>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div className="category__content">
-                                <h4 className="category__title"><Link href="/courses"><a>Languages</a></Link></h4>
-                                <p>Learn French, Dutch, Spanish</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                            <div className="category__item mb-30 transition-3 d-flex align-items-center">
-                                <div className="category__icon mr-30">
-                                <svg viewBox="0 0 512 512">
-                                    <g>
-                                        <path className="st0" d="M111.3,491.6C60.1,487.1,20,444.2,20,392V223.7c0-31.2,14.6-60.6,39.4-79.5l136-103.7   c35.8-27.3,85.5-27.3,121.3,0l9.2,7c-24.6-2.4-49.8,4.2-70.5,20L93.6,190.8C85,197.4,80,207.5,80,218.3V419   C80,447.6,92,473.4,111.3,491.6L111.3,491.6z"/>
-                                        <path className="st1" d="M392,512H120C53.8,512,0,458.1,0,392V223.7c0-37.2,17.7-72.9,47.2-95.4l136-103.7   c42.8-32.7,102.7-32.7,145.5,0L372,57.5V32c0-11,9-20,20-20s20,9,20,20v65.9c0,7.6-4.3,14.5-11.1,17.9c-6.8,3.4-15,2.6-21-2   l-75.4-57.4c-28.6-21.8-68.5-21.8-97,0l-136,103.7c-19.7,15-31.5,38.8-31.5,63.6V392c0,44.1,35.9,80,80,80h272   c44.1,0,80-35.9,80-80V223.7c0-25.1-11.6-49-31.1-63.8c-8.8-6.7-10.5-19.2-3.8-28s19.3-10.5,28-3.8c29.3,22.4,46.9,58.1,46.9,95.6   V392C512,458.1,458.2,512,392,512z"/>
-                                        <path className="st2" d="M241,256c0,13.8-11.2,25-25,25s-25-11.2-25-25s11.2-25,25-25S241,242.2,241,256z M296,231   c-13.8,0-25,11.2-25,25c0,13.8,11.2,25,25,25s25-11.2,25-25C321,242.2,309.8,231,296,231z M216,311c-13.8,0-25,11.2-25,25   s11.2,25,25,25s25-11.2,25-25S229.8,311,216,311z M296,311c-13.8,0-25,11.2-25,25s11.2,25,25,25s25-11.2,25-25S309.8,311,296,311z"/>
-                                    </g>
-                                    </svg>
-                                </div>
-                                <div className="category__content">
-                                <h4 className="category__title"><Link href="/courses"><a>Health Care</a></Link></h4>
-                                <p>Become a care giver</p>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            </div>
+          </div>
+          <div className="row">
+            <Link href="/courses">
+              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div className="category__item mb-30 transition-3 d-flex align-items-center">
+                  <div className="category__icon mr-30">
+                    <svg viewBox="0 0 512 512">
+                      <g>
+                        <path className="st0" d="M178.7,492H120c-55.2,0-100-44.8-100-100V120C20,64.8,64.8,20,120,20h58.7C123.7,20,81,64.8,81,120v272   C81,447.2,123.7,492,178.7,492z M355.5,204.8l18.9-85.5c4.8-24.1,16.7-46.3,34.1-63.7l35.4-35.4c-15.1-1.4-30.7,3.7-42.3,15.3   l-61.1,61.1c-17.4,17.4-29.3,39.6-34.1,63.7L295,217l56.7-11.3C352.9,205.4,354.2,205.1,355.5,204.8L355.5,204.8z" />
+                        <path className="st1" d="M299,512H120C53.8,512,0,458.2,0,392V120C0,53.8,53.8,0,120,0h183c11,0,20,9,20,20s-9,20-20,20H120   c-44.1,0-80,35.9-80,80v272c0,44.1,35.9,80,80,80h179c44.1,0,80-35.9,80-80V272c0-11,9-20,20-20s20,9,20,20v120   C419,458.2,365.2,512,299,512z M298.9,236.6l56.7-11.3c28.1-5.6,53.7-19.3,73.9-39.6l61.1-61.1c28.5-28.5,28.5-74.8,0-103.2   c-28.5-28.5-74.8-28.5-103.2,0l-61.1,61.1c-20.3,20.3-33.9,45.8-39.6,73.9l-11.3,56.7c-1.3,6.6,0.7,13.3,5.5,18.1   c3.8,3.8,8.9,5.9,14.1,5.9C296.3,237,297.6,236.9,298.9,236.6L298.9,236.6z M462.4,49.7c6.2,6.2,9.7,14.5,9.7,23.3   s-3.4,17.1-9.7,23.3l-61.1,61.1c-14.7,14.7-33.2,24.6-53.5,28.6l-27.3,5.4l5.4-27.3c4.1-20.3,14-38.8,28.6-53.5l61.1-61.1   c6.2-6.2,14.5-9.7,23.3-9.7S456.1,43.4,462.4,49.7L462.4,49.7z" />
+                        <path className="st2" d="M319,352H101c-11,0-20-9-20-20s9-20,20-20h218c11,0,20,9,20,20S330.1,352,319,352z M211,387   c-13.8,0-25,11.2-25,25s11.2,25,25,25s25-11.2,25-25S224.8,387,211,387z" />
+                      </g>
+                    </svg>
+                  </div>
+                  <div className="category__content">
+                    <h4 className="category__title">
+                      <Link href="/courses">
+                        <a>IT & Software</a>
+                      </Link>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </Link>
+            <Link href="/courses">
+              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div className="category__item mb-30 transition-3 d-flex align-items-center">
+                  <div className="category__icon mr-30">
+                    <svg viewBox="0 0 512 512">
+                      <g>
+                        <path className="st0" d="M178.7,492H120c-55.2,0-100-44.8-100-100V120C20,64.8,64.8,20,120,20h58.7C123.7,20,81,64.8,81,120v272   C81,447.2,123.7,492,178.7,492z M355.5,204.8l18.9-85.5c4.8-24.1,16.7-46.3,34.1-63.7l35.4-35.4c-15.1-1.4-30.7,3.7-42.3,15.3   l-61.1,61.1c-17.4,17.4-29.3,39.6-34.1,63.7L295,217l56.7-11.3C352.9,205.4,354.2,205.1,355.5,204.8L355.5,204.8z" />
+                        <path className="st1" d="M299,512H120C53.8,512,0,458.2,0,392V120C0,53.8,53.8,0,120,0h183c11,0,20,9,20,20s-9,20-20,20H120   c-44.1,0-80,35.9-80,80v272c0,44.1,35.9,80,80,80h179c44.1,0,80-35.9,80-80V272c0-11,9-20,20-20s20,9,20,20v120   C419,458.2,365.2,512,299,512z M298.9,236.6l56.7-11.3c28.1-5.6,53.7-19.3,73.9-39.6l61.1-61.1c28.5-28.5,28.5-74.8,0-103.2   c-28.5-28.5-74.8-28.5-103.2,0l-61.1,61.1c-20.3,20.3-33.9,45.8-39.6,73.9l-11.3,56.7c-1.3,6.6,0.7,13.3,5.5,18.1   c3.8,3.8,8.9,5.9,14.1,5.9C296.3,237,297.6,236.9,298.9,236.6L298.9,236.6z M462.4,49.7c6.2,6.2,9.7,14.5,9.7,23.3   s-3.4,17.1-9.7,23.3l-61.1,61.1c-14.7,14.7-33.2,24.6-53.5,28.6l-27.3,5.4l5.4-27.3c4.1-20.3,14-38.8,28.6-53.5l61.1-61.1   c6.2-6.2,14.5-9.7,23.3-9.7S456.1,43.4,462.4,49.7L462.4,49.7z" />
+                        <path className="st2" d="M319,352H101c-11,0-20-9-20-20s9-20,20-20h218c11,0,20,9,20,20S330.1,352,319,352z M211,387   c-13.8,0-25,11.2-25,25s11.2,25,25,25s25-11.2,25-25S224.8,387,211,387z" />
+                      </g>
+                    </svg>
+                  </div>
+                  <div className="category__content">
+                    <h4 className="category__title">
+                      <Link href="/courses">
+                        <a>Languages</a>
+                      </Link>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </Link>
+            <Link href="/courses">
+              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <div className="category__item mb-30 transition-3 d-flex align-items-center">
+                  <div className="category__icon mr-30">
+                    <svg viewBox="0 0 512 512">
+                      <g>
+                        <path className="st0" d="M111.3,491.6C60.1,487.1,20,444.2,20,392V223.7c0-31.2,14.6-60.6,39.4-79.5l136-103.7   c35.8-27.3,85.5-27.3,121.3,0l9.2,7c-24.6-2.4-49.8,4.2-70.5,20L93.6,190.8C85,197.4,80,207.5,80,218.3V419   C80,447.6,92,473.4,111.3,491.6L111.3,491.6z" />
+                        <path className="st1" d="M392,512H120C53.8,512,0,458.1,0,392V223.7c0-37.2,17.7-72.9,47.2-95.4l136-103.7   c42.8-32.7,102.7-32.7,145.5,0L372,57.5V32c0-11,9-20,20-20s20,9,20,20v65.9c0,7.6-4.3,14.5-11.1,17.9c-6.8,3.4-15,2.6-21-2   l-75.4-57.4c-28.6-21.8-68.5-21.8-97,0l-136,103.7c-19.7,15-31.5,38.8-31.5,63.6V392c0,44.1,35.9,80,80,80h272   c44.1,0,80-35.9,80-80V223.7c0-25.1-11.6-49-31.1-63.8c-8.8-6.7-10.5-19.2-3.8-28s19.3-10.5,28-3.8c29.3,22.4,46.9,58.1,46.9,95.6   V392C512,458.1,458.2,512,392,512z" />
+                        <path className="st2" d="M241,256c0,13.8-11.2,25-25,25s-25-11.2-25-25s11.2-25,25-25S241,242.2,241,256z M296,231   c-13.8,0-25,11.2-25,25c0,13.8,11.2,25,25,25s25-11.2,25-25C321,242.2,309.8,231,296,231z M216,311c-13.8,0-25,11.2-25,25   s11.2,25,25,25s25-11.2,25-25S229.8,311,216,311z M296,311c-13.8,0-25,11.2-25,25s11.2,25,25,25s25-11.2,25-25S309.8,311,296,311z" />
+                      </g>
+                    </svg>
+                  </div>
+                  <div className="category__content">
+                    <h4 className="category__title">
+                      <Link href="/courses">
+                        <a>Health Care</a>
+                      </Link>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </Link>
+
+            {/* <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6">
                             <div className="category__item mb-30 transition-3 d-flex align-items-center">
                                 <div className="category__icon mr-30">
                                 <svg viewBox="0 0 512 512">
@@ -145,13 +164,12 @@ function Category({id}) {
                                 <p>Get certified in weeks</p>
                                 </div>
                             </div>
-                        </div> */}                                                
-                    </div>
-                </div>
-            </section>
-        </main>
-        );
-    
+                        </div> */}
+          </div>
+        </div>
+      </section>
+    </main>
+  );
 }
 
 export default Category;

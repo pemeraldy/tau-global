@@ -3,9 +3,12 @@
 /*----------------------------------------*/
 /*  04. CATEGORY CSS START
 /*----------------------------------------*/
+// color: #064316;
+//   background: #edc81c;
 
 .category{
     &__item{
+        cursor: pointer;
         padding: 20px 40px;
         @include border-radius(6px);
         border: 2px solid $border;
@@ -23,11 +26,11 @@
             padding-right: 30px;
         }
         &:hover{
-            background: $e-blue;
-            border-color: $e-blue;
+            background: #edc81c;
+            border-color: #edc81c;
             @include box-shadow(0px 20px 30px 0px rgba(4, 23, 118, 0.3));
             & .category__title{
-                color: $white;
+                color: #064316;
             }
             & svg{
                 & .st0,
@@ -35,12 +38,12 @@
                 & .st2,
                 & .st4,
                 & .st5{
-                    fill: $white;
+                    fill: #064316;
                 }
             }
             & .category__content{
                 & p{
-                    color: $white;
+                    color: #064316;
                 }
             }
         }
@@ -56,10 +59,10 @@
                 fill:#CEE1F2;
             }
             & .st1{
-                fill:#3444F1;
+                fill:#064316;
             }
             & .st4{
-                fill: #3444F1;
+                fill: #064316;
             }
             & .st2{
                 fill:#FFB31F;
