@@ -19,7 +19,7 @@
             & p{
                 font-size: 16px;
                 line-height: 24px;
-                color: $e-text-5;
+                color: $tau-yellow;
                 margin-bottom: 30px;
             }
             &-2{
@@ -79,7 +79,7 @@
                     margin-bottom: 4px;
                 }
                 & a{
-                    color: $e-text-5;
+                    color: $tau-yellow;
                     &:hover{
                         color: $white;
                     }
@@ -166,7 +166,7 @@
         & p{
             font-size: 14px;
             line-height: 20px;
-            color: $e-text-6;
+            // color: $tau-green;
             padding-right: 60px;
         }
         &-2{
