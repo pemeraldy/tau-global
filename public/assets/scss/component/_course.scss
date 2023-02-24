@@ -69,8 +69,8 @@
             line-height: 24px;
             font-size: 14px;
             font-weight: 500;
-            color: $white;
-            background: $e-blue;
+            color: $tau-green;
+            background: $tau-yellow;
             padding: 0 10px;
             @include border-radius(4px);
 
@@ -132,7 +132,7 @@
 
         & a {
             &:hover {
-                color: $e-blue;
+                color: $tau-green;
             }
         }
 
@@ -142,7 +142,7 @@
 
             & a {
                 &:hover {
-                    color: $e-blue;
+                    color:  $tau-green;
                 }
             }
         }
@@ -491,7 +491,7 @@
             color: $black;
 
             &:hover {
-                color: $e-blue;
+                color:  $tau-green;
             }
         }
     }
@@ -675,8 +675,8 @@
                         margin: 0px !important;
 
                         & .nav-link {
-                            background: $e-blue;
-                            color: $white;
+                            background: $tau-yellow;
+                            color: $tau-green;
                         }
                     }
                 }

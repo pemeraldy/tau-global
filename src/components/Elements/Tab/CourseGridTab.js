@@ -17,8 +17,9 @@ export default ({id}) => (
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
               <div className="course__tab-wrapper d-flex align-items-center">
                 <div className="course__tab-btn">
+                  <h1>Courses</h1>
                   <TabList>
-                    <Tab>
+                    {/* <Tab>
                       <button className="nav-link active" id="grid-tab" type="button">
                         <svg className="grid" viewBox="0 0 24 24">
                           <rect x="3" y="3" className="st0" width="7" height="7" />
@@ -27,7 +28,7 @@ export default ({id}) => (
                           <rect x="3" y="14" className="st0" width="7" height="7" />
                         </svg>
                       </button>
-                    </Tab>
+                    </Tab> */}
                     {/* <Tab>
                       <button className="nav-link list" id="list-tab" type="button">
                         <svg className="list" viewBox="0 0 512 512">

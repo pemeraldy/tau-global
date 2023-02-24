@@ -11,7 +11,7 @@ function CourseGridMain ({id}) {
           <main>
             {/* breadcrumb-start */}
             {/* <Breadcrumb bgImage="/college-students-studying.jpg" /> */}
-            <Breadcrumb bgImage="college-students-studying.jpeg" pageTitle="Contact" />
+            <Breadcrumb bgImage="college-students-studying.jpeg" pageTitle="Courses" />
             {/* breadcrumb-end */}
 
             {/* course tab-start */}

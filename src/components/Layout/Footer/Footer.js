@@ -16,7 +16,7 @@ const Footer = () => {
                       <div className="footer__logo">
                         <Link href="/">
                           <a>
-                            <img width="77" src="assets/img/logo/tau-globalacademy-logo.png" alt="img not found" />
+                            <img width="77" src="/assets/img/logo/tau-globalacademy-logo.png" alt="img not found" />
                           </a>
                         </Link>
                       </div>
@@ -27,7 +27,7 @@ const Footer = () => {
                       <div className="footer__social">
                         <ul>
                           <li>
-                            <a href="https://twitter.com/Tauglobalacademy" target="_blank">
+                            <a href="https://facebook.com/Tauglobalacademy" target="_blank">
                               <i className="fab fa-facebook-f"></i>
                             </a>
                           </li>
@@ -106,8 +106,8 @@ const Footer = () => {
                     </div>
                     <div className="footer__widget-body">
                       <div className="footer__subscribe">
-                        <div className="contact__info-text">
-                          <h4>Address</h4>
+                        <div style={{marginTop: '41px'}}>
+                          {/* <h4>Address</h4> */}
                           <p>
                             <a target="_blank" href="https://goo.gl/maps/dUK9ZuQm3xNkVu158">
                               No. 512 Zunger Street, 4th Avenue, Gwarinpa, Abuja.
