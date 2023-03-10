@@ -124,11 +124,11 @@ const Header = () => {
                            </ul>
                          </li>
 
-                         <li className="has-dropown mx-3">
+                         {/* <li className="has-dropown mx-3">
                            <Link href="/">
                              <a>Blog</a>
                            </Link>
-                         </li>
+                         </li> */}
 
                          <li className="has-dropown mx-3">
                            <Link href={router.pathname === "/" ? "#reviews" : "/#reviews"}>
