@@ -121,7 +121,7 @@ const Footer = () => {
                         {/* <h4>Address</h4> */}
                         <p>
                           <a target="_blank" href="https://goo.gl/maps/dUK9ZuQm3xNkVu158">
-                            No. 512 Zunger Street, 4th Avenue, Gwarinpa, Abuja.
+                            No. 519 Zunger Street, 4th Avenue, Gwarinpa, Abuja.
                           </a>
                         </p>
                       </div>
